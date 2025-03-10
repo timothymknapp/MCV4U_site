@@ -404,7 +404,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #body .nav:hover {
-    background: #eb1f1f;
+    background: #F6F6F6;
 }
 #body .nav.nav-pref {
     left: 0;
