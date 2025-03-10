@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language | default "en" }}">
+  <head>
+    {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+    {{ end }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} :: {{ .Site.Title }}</title>
+    {{ partial "meta.html" . }}
+    {{ partial "favicon.html" . }}
+    <!-- Other head elements -->
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    {{ partial "custom-header.html" . }}
+    <section>
+      {{ .Content }}
+    </section>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language | default "en" }}">
+<head>
+    {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+    {{ end }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} :: {{ .Site.Title }}</title>
+    {{ partial "meta.html" . }}
+    {{ partial "favicon.html" . }}
+    
+</head>
+<body>
+    {{ partial "header.html" . }}
+
+
+    <section>
+        {{ partial "custom-header.html" . }}
+        <div class="container">
+            {{ if eq .Kind "section" }}
+                {{ .Content }}
+            {{ end }}
+
+            {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+                <ul>
+                    {{ range .Pages }}
+                        <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+    </section>
+
+    <footer class="footline">
+        {{ with .Params.LastModifierDisplayName }}
+            <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> 
+            {{ with $.Date }} 
+                <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}
+            {{ end }}
+        {{ end }}
+    </footer>
+
+    {{ partial "footer.html" . }}
+</body>
+</html>
