@@ -7,12 +7,7 @@
 # baseURL = "https://mr.knapp.surge.sh"
 
 # Base URL for GitHub Pages (uncomment when deploying to GitHub Pages)
- baseURL = "https://timothymknapp.github.io/MCV4U_site/"
-
-# Other configurations can go below
-languageCode = "en"
-title = "MCV4U Calculus"
-theme = "hugo-theme-learn"
+baseURL = "https://timothymknapp.github.io/MCV4U_site/"
 
 title = "Calculus Hub"
 theme = "hugo-theme-learn"
