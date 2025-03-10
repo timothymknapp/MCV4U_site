@@ -1,4 +1,76 @@
+
 # Deployment Process for Surge and GitHub Pages
+
+## 1. Commit Content Updates to Master Branch
+
+# Open VS Code and stage all changes
+git add .
+
+# Commit changes with a meaningful message
+git commit -m "Content updates for the day"
+
+# Push changes to the master branch
+git push origin master
+
+## 2. Deploy to Surge
+
+# Build the site for Surge
+hugo --baseURL https://mr.knapp.surge.sh
+
+# Deploy to Surge
+surge ./public --domain mr.knapp.surge.sh
+
+## 3. Deploy to GitHub Pages
+
+# Ignore local changes in the public directory
+git checkout -- public
+
+# Build the site for GitHub Pages
+hugo --baseURL https://timothymknapp.github.io/MCV4U_site/
+
+# Switch to the gh-pages branch
+git checkout gh-pages
+
+# Copy the new build into the gh-pages branch
+rsync -av --delete public/ ./
+
+# Stage and commit the changes
+git add .
+git commit -m "Deploy to GitHub Pages"
+
+# Push to GitHub Pages
+git push origin gh-pages --force
+
+# Switch back to master for future development
+git checkout master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 1. Commit Content Updates to Master Branch
 
