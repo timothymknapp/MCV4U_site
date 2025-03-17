@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language | default "en" }}">
-<head>
-    {{ if .Param "math" }}
-        {{ partialCached "math.html" . }}
-    {{ end }}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} :: {{ .Site.Title }}</title>
-    {{ partial "meta.html" . }}
-    {{ partial "favicon.html" . }}
+    <head>
+        {{ if .Param "math" }}
+            {{ partialCached "math.html" . }}
+        {{ end }}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ .Title }} :: {{ .Site.Title }}</title>
+        {{ partial "meta.html" . }}
+        {{ partial "favicon.html" . }}
+        {{ partial "custom-header.html" . }}
     
-</head>
-<body>
+        <!-- MathJax for LaTeX-style math rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']], // Support $...$ and \(...\)
+            displayMath: [['$$', '$$'], ['\\[', '\\]']], // Support $$...$$ and \[...\]
+            processEscapes: true,
+            processEnvironments: true
+          },
+          options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+        };
+        // Your existing renderMathInElement logic (if needed)
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true }
+          ]
+        });
+      });
+    </script>
+        <!-- Include other styles and scripts here -->
+    
+    
+    </head>
+
+    <body>
     {{ partial "header.html" . }}
 
 
