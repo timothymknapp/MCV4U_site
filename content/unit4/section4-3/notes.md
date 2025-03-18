@@ -5,44 +5,44 @@ weight = 1
 
 
 ### Example 1: Polynomial Function
-Determine the points of inflection for the function \( f(x) = x^3 - 6x^2 + 9x + 2 \).
+Determine the points of inflection for the function \( f(x) = x^3 + x - 3 \).
 
 #### Solution:
 Write the given function:  
 
-\[ f(x) = x^3 - 6x^2 + 9x + 2 \]  
+\[ f(x) = x^3 + x - 3 \]  
 
 Compute the first derivative:  
 
-\[ f'(x) = 3x^2 - 12x + 9 \]  
+\[ f'(x) = 3x^2 + 1 \]  
 
 Compute the second derivative:  
 
-\[ f''(x) = 6x - 12 \]  
+\[ f''(x) = 6x \]  
 
 Set \( f''(x) = 0 \) to find potential points of inflection:  
 
-\[ 6x - 12 = 0 \implies x = 2 \]  
+\[ 6x = 0 \implies x = 0 \]  
 
-Check the concavity around \( x = 2 \):
+Check the concavity around \( x = 0 \):
 
-- For \( x < 2 \), choose \( x = 1 \):  
+- For \( x < 0 \), choose \( x = -1 \):  
 
-  \[ f''(1) = 6(1) - 12 = -6 < 0 \] (\( f(x) \) is concave down).
+  \[ f''(-1) = 6(-1) = -6 < 0 \] (\( f(x) \) is concave down).
 
-- For \( x > 2 \), choose \( x = 3 \):  
+- For \( x > 0 \), choose \( x = 1 \):  
 
-  \[ f''(3) = 6(3) - 12 = 6 > 0 \] (\( f(x) \) is concave up).
+  \[ f''(1) = 6(1) = 6 > 0 \] (\( f(x) \) is concave up).
 
-Since the concavity changes at \( x = 2 \), it is a **point of inflection**.
+Since the concavity changes at \( x = 0 \), it is a **point of inflection**.
 
-Find the \( y \)-coordinate at \( x = 2 \):  
+Find the \( y \)-coordinate at \( x = 0 \):  
 
-\[ f(2) = (2)^3 - 6(2)^2 + 9(2) + 2 = 8 - 24 + 18 + 2 = 4 \]
+\[ f(0) = (0)^3 + (0) - 3 = -3 \]
 
 Thus, the point of inflection is:  
 
-\[ \boxed{(2, 4)} \]
+\[ \boxed{(0, -3)} \]
 
 ---
 

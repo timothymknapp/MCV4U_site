@@ -12,120 +12,116 @@ In this section, we will work through examples that demonstrate how to determine
 ---
 
 ### Example 1: Polynomial Function
-Determine the intervals where the function \( f(x) = x^3 - 6x^2 + 9x + 2 \) is increasing or decreasing.
+Determine the intervals where the function \( f(x) = x^4 - 8x^3 + 18x^2 - 10 \) is increasing or decreasing.
 
 #### Solution:
 Write the given function:  
-\[ f(x) = x^3 - 6x^2 + 9x + 2 \]  
+\[ f(x) = x^4 - 8x^3 + 18x^2 - 10 \]  
 
 Compute the derivative:  
-\[ f'(x) = 3x^2 - 12x + 9 \]  
+\[ f'(x) = 4x^3 - 24x^2 + 36x \]  
 
 Set \( f'(x) = 0 \) to find critical points:  
-\[ 3x^2 - 12x + 9 = 0 \implies x^2 - 4x + 3 = 0 \implies (x - 3)(x - 1) = 0 \]  
-Critical points: \( x = 1 \) and \( x = 3 \).  
+\[ 4x^3 - 24x^2 + 36x = 0 \implies 4x(x^2 - 6x + 9) = 0 \implies 4x(x - 3)^2 = 0 \]  
+Critical points: \( x = 0 \) and \( x = 3 \).  
 
 Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:
-- For \( x < 1 \), choose \( x = 0 \):  
-  \[ f'(0) = 3(0)^2 - 12(0) + 9 = 9 > 0 \] (\( f(x) \) is increasing).
-- For \( 1 < x < 3 \), choose \( x = 2 \):  
-  \[ f'(2) = 3(2)^2 - 12(2) + 9 = 12 - 24 + 9 = -3 < 0 \] (\( f(x) \) is decreasing).
+- For \( x < 0 \), choose \( x = -1 \):  
+  \[ f'(-1) = 4(-1)((-1) - 3)^2 = 4(-1)(16) = -64 < 0 \] (\( f(x) \) is decreasing).
+- For \( 0 < x < 3 \), choose \( x = 1 \):  
+  \[ f'(1) = 4(1)((1) - 3)^2 = 4(1)(4) = 16 > 0 \] (\( f(x) \) is increasing).
 - For \( x > 3 \), choose \( x = 4 \):  
-  \[ f'(4) = 3(4)^2 - 12(4) + 9 = 48 - 48 + 9 = 9 > 0 \] (\( f(x) \) is increasing).
+  \[ f'(4) = 4(4)((4) - 3)^2 = 4(4)(1) = 16 > 0 \] (\( f(x) \) is increasing).
 
 Thus, the function is:
-- Increasing on \( (-\infty, 1) \cup (3, \infty) \).
-- Decreasing on \( (1, 3) \).
+- Increasing on \( (0, \infty) \).
+- Decreasing on \( (-\infty, 0) \).
 
-\[ \boxed{\text{Increasing: } (-\infty, 1) \cup (3, \infty), \text{ Decreasing: } (1, 3)} \]
+\[ \boxed{\text{Increasing: } (0, \infty), \text{ Decreasing: } (-\infty, 0)} \]
 
 ---
 
 ### Example 2: Rational Function
-Determine the intervals where the function \( f(x) = \frac{x}{x^2 + 1} \) is increasing or decreasing.
+Determine the intervals where the function \( f(x) = \frac{x^2}{x^2 - 4} \) is increasing or decreasing.
 
 #### Solution:
 Write the given function:  
-\[ f(x) = \frac{x}{x^2 + 1} \]  
+\[ f(x) = \frac{x^2}{x^2 - 4} \]  
 
 Compute the derivative using the quotient rule:  
-\[ f'(x) = \frac{(x^2 + 1)(1) - x(2x)}{(x^2 + 1)^2} = \frac{-x^2 + 1}{(x^2 + 1)^2} \]  
+\[ f'(x) = \frac{(x^2 - 4)(2x) - x^2(2x)}{(x^2 - 4)^2} = \frac{-8x}{(x^2 - 4)^2} \]  
 
 Set \( f'(x) = 0 \) to find critical points:  
-\[ -x^2 + 1 = 0 \implies x^2 = 1 \implies x = \pm 1 \]  
-Critical points: \( x = -1 \) and \( x = 1 \).  
-
-Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:
-- For \( x < -1 \), choose \( x = -2 \):  
-  \[ f'(-2) = \frac{-(-2)^2 + 1}{((-2)^2 + 1)^2} = \frac{-4 + 1}{(4 + 1)^2} = \frac{-3}{25} < 0 \] (\( f(x) \) is decreasing).
-- For \( -1 < x < 1 \), choose \( x = 0 \):  
-  \[ f'(0) = \frac{-(0)^2 + 1}{((0)^2 + 1)^2} = \frac{1}{1} = 1 > 0 \] (\( f(x) \) is increasing).
-- For \( x > 1 \), choose \( x = 2 \):  
-  \[ f'(2) = \frac{-(2)^2 + 1}{((2)^2 + 1)^2} = \frac{-4 + 1}{(4 + 1)^2} = \frac{-3}{25} < 0 \] (\( f(x) \) is decreasing).
-
-Thus, the function is:
-- Increasing on \( (-1, 1) \).
-- Decreasing on \( (-\infty, -1) \cup (1, \infty) \).
-
-\[ \boxed{\text{Increasing: } (-1, 1), \text{ Decreasing: } (-\infty, -1) \cup (1, \infty)} \]
-
----
-
-### Example 3: Trigonometric Function
-Determine the intervals where the function \( f(x) = \sin(x) \) is increasing or decreasing on the interval \( [0, 2\pi] \).
-
-#### Solution:
-Write the given function:  
-\[ f(x) = \sin(x) \]  
-
-Compute the derivative:  
-\[ f'(x) = \cos(x) \]  
-
-Set \( f'(x) = 0 \) to find critical points:  
-\[ \cos(x) = 0 \implies x = \frac{\pi}{2}, \frac{3\pi}{2} \]  
-Critical points: \( x = \frac{\pi}{2} \) and \( x = \frac{3\pi}{2} \).  
-
-Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:
-- For \( 0 < x < \frac{\pi}{2} \), choose \( x = \frac{\pi}{4} \):  
-  \[ f'\left(\frac{\pi}{4}\right) = \cos\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}}{2} > 0 \] (\( f(x) \) is increasing).
-- For \( \frac{\pi}{2} < x < \frac{3\pi}{2} \), choose \( x = \pi \):  
-  \[ f'(\pi) = \cos(\pi) = -1 < 0 \] (\( f(x) \) is decreasing).
-- For \( \frac{3\pi}{2} < x < 2\pi \), choose \( x = \frac{7\pi}{4} \):  
-  \[ f'\left(\frac{7\pi}{4}\right) = \cos\left(\frac{7\pi}{4}\right) = \frac{\sqrt{2}}{2} > 0 \] (\( f(x) \) is increasing).
-
-Thus, the function is:
-- Increasing on \( \left(0, \frac{\pi}{2}\right) \cup \left(\frac{3\pi}{2}, 2\pi\right) \).
-- Decreasing on \( \left(\frac{\pi}{2}, \frac{3\pi}{2}\right) \).
-
-\[ \boxed{\text{Increasing: } \left(0, \frac{\pi}{2}\right) \cup \left(\frac{3\pi}{2}, 2\pi\right), \text{ Decreasing: } \left(\frac{\pi}{2}, \frac{3\pi}{2}\right)} \]
-
----
-
-### Example 4: Exponential Function
-Determine the intervals where the function \( f(x) = e^{-x^2} \) is increasing or decreasing.
-
-#### Solution:
-Write the given function:  
-\[ f(x) = e^{-x^2} \]  
-
-Compute the derivative using the chain rule:  
-\[ f'(x) = e^{-x^2} \cdot (-2x) = -2x e^{-x^2} \]  
-
-Set \( f'(x) = 0 \) to find critical points:  
-\[ -2x e^{-x^2} = 0 \implies x = 0 \]  
+\[ -8x = 0 \implies x = 0 \]  
 Critical point: \( x = 0 \).  
 
-Use the first derivative test to determine the sign of \( f'(x) \) around the critical point:
+Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:
 - For \( x < 0 \), choose \( x = -1 \):  
-  \[ f'(-1) = -2(-1)e^{-(-1)^2} = 2e^{-1} > 0 \] (\( f(x) \) is increasing).
+  \[ f'(-1) = \frac{-8(-1)}{((-1)^2 - 4)^2} = \frac{8}{9} > 0 \] (\( f(x) \) is increasing).
 - For \( x > 0 \), choose \( x = 1 \):  
-  \[ f'(1) = -2(1)e^{-(1)^2} = -2e^{-1} < 0 \] (\( f(x) \) is decreasing).
+  \[ f'(1) = \frac{-8(1)}{((1)^2 - 4)^2} = \frac{-8}{9} < 0 \] (\( f(x) \) is decreasing).
 
 Thus, the function is:
 - Increasing on \( (-\infty, 0) \).
 - Decreasing on \( (0, \infty) \).
 
 \[ \boxed{\text{Increasing: } (-\infty, 0), \text{ Decreasing: } (0, \infty)} \]
+
+---
+
+### Example 3: Trigonometric Function
+Determine the intervals where the function \( f(x) = \cos(x) \) is increasing or decreasing on the interval \( [0, 2\pi] \).
+
+#### Solution:
+Write the given function:  
+\[ f(x) = \cos(x) \]  
+
+Compute the derivative:  
+\[ f'(x) = -\sin(x) \]  
+
+Set \( f'(x) = 0 \) to find critical points:  
+\[ -\sin(x) = 0 \implies x = 0, \pi, 2\pi \]  
+Critical points: \( x = 0, \pi, 2\pi \).  
+
+Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:
+- For \( 0 < x < \pi \), choose \( x = \frac{\pi}{2} \):  
+  \[ f'\left(\frac{\pi}{2}\right) = -\sin\left(\frac{\pi}{2}\right) = -1 < 0 \] (\( f(x) \) is decreasing).
+- For \( \pi < x < 2\pi \), choose \( x = \frac{3\pi}{2} \):  
+  \[ f'\left(\frac{3\pi}{2}\right) = -\sin\left(\frac{3\pi}{2}\right) = 1 > 0 \] (\( f(x) \) is increasing).
+
+Thus, the function is:
+- Increasing on \( (\pi, 2\pi) \).
+- Decreasing on \( (0, \pi) \).
+
+\[ \boxed{\text{Increasing: } (\pi, 2\pi), \text{ Decreasing: } (0, \pi)} \]
+
+---
+
+### Example 4: Exponential Function
+Determine the intervals where the function \( f(x) = e^{x^2 - 2x} \) is increasing or decreasing.
+
+#### Solution:
+Write the given function:  
+\[ f(x) = e^{x^2 - 2x} \]  
+
+Compute the derivative using the chain rule:  
+\[ f'(x) = e^{x^2 - 2x} \cdot (2x - 2) = (2x - 2)e^{x^2 - 2x} \]  
+
+Set \( f'(x) = 0 \) to find critical points:  
+\[ (2x - 2)e^{x^2 - 2x} = 0 \implies 2x - 2 = 0 \implies x = 1 \]  
+Critical point: \( x = 1 \).  
+
+Use the first derivative test to determine the sign of \( f'(x) \) around the critical point:
+- For \( x < 1 \), choose \( x = 0 \):  
+  \[ f'(0) = (2(0) - 2)e^{(0)^2 - 2(0)} = -2e^0 = -2 < 0 \] (\( f(x) \) is decreasing).
+- For \( x > 1 \), choose \( x = 2 \):  
+  \[ f'(2) = (2(2) - 2)e^{(2)^2 - 2(2)} = (4 - 2)e^{4 - 4} = 2e^0 = 2 > 0 \] (\( f(x) \) is increasing).
+
+Thus, the function is:
+- Increasing on \( (1, \infty) \).
+- Decreasing on \( (-\infty, 1) \).
+
+\[ \boxed{\text{Increasing: } (1, \infty), \text{ Decreasing: } (-\infty, 1)} \]
 
 ---
 
