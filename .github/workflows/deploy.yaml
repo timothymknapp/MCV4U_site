@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.HUGO_DEPLOYMENT_TOKEN }} # Use your Personal Access Token
+        personal_token: ${{ secrets.HUGO_DEPLOYMENT_TOKEN }} # Use your PAT
         publish_dir: ./public
         destination_repo: MrKnappsClass # Target repository
         destination_branch: main # Branch to deploy to
