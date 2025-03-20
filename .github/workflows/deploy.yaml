@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master # Trigger the workflow on pushes to the master branch
 
 jobs:
   build-and-deploy:
@@ -16,18 +16,18 @@ jobs:
     - name: Set up Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.141.0'
+        hugo-version: '0.139.4' # Match the Hugo version you're using locally
 
     - name: Build Hugo project
-      run: hugo --minify
+      run: hugo --minify # Minify the output for production
 
     - name: List public directory
-      run: ls -R ./public
+      run: ls -R ./public # Debugging step to verify the build output
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy to MrKnappsClass
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.HUGO_DEPLOYMENT_TOKEN }} # Use your PAT
-        publish_dir: ./public
-        destination_repo: MrKnappsClass # Target repository
-        destination_branch: main # Branch to deploy to
+        publish_dir: ./public # Directory containing the built site
+        external_repository: MrKnappsClass # Target repository
+        publish_branch: main # Branch to deploy to
