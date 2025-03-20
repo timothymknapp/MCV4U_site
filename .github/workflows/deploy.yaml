@@ -29,5 +29,5 @@ jobs:
       with:
         personal_token: ${{ secrets.DEPLOY_TO_MRKNAPPSCLASS }} # Use your PAT.
         publish_dir: ./public # Directory containing the built site
-        external_repository: MrKnappsClass # Target repository
+        external_repository: timothymknapp/MrKnappsClass # Target repository
         publish_branch: main # Branch to deploy to
