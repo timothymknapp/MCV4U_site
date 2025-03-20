@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to MrKnappsClass
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.DEPLOY_TO_MRKNAPPSCLASS }} # Use your PAT.
+        personal_token: ${{ secrets.GITHUB-TOKEN }} # Use your PAT.
         publish_dir: ./public # Directory containing the built site
         external_repository: timothymknapp/MrKnappsClass # Target repository
         publish_branch: main # Branch to deploy to
