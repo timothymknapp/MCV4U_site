@@ -115,7 +115,7 @@ Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following 
 ---
 
 
-### Example: Reconstructing a Trigonometric Function (No Solution)
+### Example 3: Reconstructing a Trigonometric Function (No Solution)
 
 Reconstruct the trigonometric function $ f(x) = A\sin(x) + B\cos(x) + C $ given the following conditions:
 - $ f(0) = 1 $
@@ -168,9 +168,7 @@ Reconstruct the trigonometric function $ f(x) = A\sin(x) + B\cos(x) + C $ given 
 
 ---
 
----
-
-### Example 3: Reconstructing a Trigonometric Function
+### Example 4: Reconstructing a Trigonometric Function
 
 Reconstruct the trigonometric function $ f(x) = A\sin(x) + B\cos(x) + C $ given the following conditions:
 - $ f(0) = 2 $
@@ -233,7 +231,7 @@ Reconstruct the trigonometric function $ f(x) = A\sin(x) + B\cos(x) + C $ given 
 
 ---
 
-### Example 4: Reconstructing a Quadratic Function
+### Example 5: Reconstructing a Quadratic Function
 
 Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following conditions:
 - $ f(0) = 2 $
@@ -278,7 +276,7 @@ Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following 
 
 ---
 
-### Example 5: Reconstructing a Rational Function
+### Example 6: Reconstructing a Rational Function
 
 Reconstruct the rational function $ f(x) = \frac{ax + b}{cx + d} $ given the following conditions:
 - $ f(0) = 1 $
@@ -327,7 +325,7 @@ Reconstruct the rational function $ f(x) = \frac{ax + b}{cx + d} $ given the fol
 
 ---
 
-### Example 6: Reconstructing a Logarithmic Function
+### Example 7: Reconstructing a Logarithmic Function
 
 Reconstruct the logarithmic function $ f(x) = A\ln(x) + B $ given the following conditions:
 - $ f(1) = 0 $
@@ -362,7 +360,7 @@ Reconstruct the logarithmic function $ f(x) = A\ln(x) + B $ given the following 
 ---
 
 
-### Example 7: Reconstructing a Quadratic Function (No Solution)
+### Example 8: Reconstructing a Quadratic Function (No Solution)
 
 Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following conditions:
 - $ f(0) = 3 $
@@ -412,7 +410,7 @@ Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following 
 
 ---
 
-### Example 8: Reconstructing an Exponential Function
+### Example 9: Reconstructing an Exponential Function
 
 Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following conditions:
 - $ f(0) = 2 $
@@ -467,82 +465,3 @@ Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following 
    \[
    f(x) = -3e^{-x} + 5
    \]
-
----
-
-### Example 9: Reconstructing a Trigonometric Function
-
-Reconstruct the trigonometric function $ f(x) = A\sin(x) + B\cos(x) + C $ given the following conditions:
-- $ f(0) = 2 $
-- $ f'(\pi/2) = -1 $
-- $ f(\pi) = 0 $
-
-**Solution:**
-1. Identify the structure of the function:
-   - This is a trigonometric function: $ f(x) = A\sin(x) + B\cos(x) + C $.
-
-2. Compute the derivative:
-
-   \[
-   f'(x) = A\cos(x) - B\sin(x)
-   \]
-
-3. Translate the conditions into equations:
-   - From $ f(0) = 2 $:
-
-     \[
-     A\sin(0) + B\cos(0) + C = 2 \implies B + C = 2
-     \]
-
-   - From $ f'(\pi/2) = -1 $:
-
-     \[
-     A\cos(\pi/2) - B\sin(\pi/2) = -1
-     \]
-
-     Simplify using trigonometric values ($ \cos(\pi/2) = 0 $ and $ \sin(\pi/2) = 1 $):
-
-     \[
-     -B = -1 \implies B = 1
-     \]
-
-   - From $ f(\pi) = 0 $:
-
-     \[
-     A\sin(\pi) + B\cos(\pi) + C = 0
-     \]
-
-     Substitute $ \sin(\pi) = 0 $ and $ \cos(\pi) = -1 $:
-
-     \[
-     A(0) + B(-1) + C = 0 \implies -B + C = 0 \implies C = B
-     \]
-
-4. Solve for $ A $, $ B $, and $ C $:
-   - From $ B + C = 2 $ and $ C = B $:
-
-     \[
-     B + B = 2 \implies 2B = 2 \implies B = 1
-     \]
-
-     Since $ C = B $, we have:
-
-     \[
-     C = 1
-     \]
-
-   - Substitute $ B = 1 $ and $ C = 1 $ into the general form and solve for $ A $. Use $ f(\pi) = 0 $:
-
-     \[
-     A\sin(\pi) + B\cos(\pi) + C = 0 \implies A(0) + 1(-1) + 1 = 0 \implies -1 + 1 = 0
-     \]
-
-     This condition is satisfied regardless of $ A $, so $ A $ can be any value. For simplicity, let $ A = 1 $.
-5. Write the final function:
-   Substituting $ A = 1 $, $ B = 1 $, and $ C = 1 $ into the general form:
-
-   \[
-   f(x) = \sin(x) + \cos(x) + 1
-   \]
-
----
