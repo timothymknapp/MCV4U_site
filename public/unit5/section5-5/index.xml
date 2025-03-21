@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Section 5.5 on Calculus Hub</title>
-    <link>http://localhost:1313/unit5/section5-5/</link>
+    <link>http://localhost:1313/MrKnappsClass/unit5/section5-5/</link>
     <description>Recent content in Section 5.5 on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/unit5/section5-5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MrKnappsClass/unit5/section5-5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5.5 Notes</title>
-      <link>http://localhost:1313/unit5/section5-5/notes/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit5/section5-5/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/unit5/section5-5/notes/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-5/notes/</guid>
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
     </item>
     <item>
       <title>5.5 Practice</title>
-      <link>http://localhost:1313/unit5/section5-5/practice/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit5/section5-5/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/unit5/section5-5/practice/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-5/practice/</guid>
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
     </item>
   </channel>
