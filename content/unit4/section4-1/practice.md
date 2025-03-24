@@ -124,3 +124,6 @@ Compare the values:
 Thus, the maximum and minimum values are:
 \[ \boxed{\text{Maximum: } f(0) = f(4) = 1, \text{ Minimum: } f(2) = e^{-4}} \]
 </details>
+
+
+<iframe src="https://script.google.com/macros/s/AKfycbz9_WFhq0pozL-eLjJqInaiIIaITjEZj_xsct6zFRFbjamjITI4YobthpkjSgiTMwe_/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
