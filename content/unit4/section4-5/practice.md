@@ -390,4 +390,3 @@ We can conclude that the graph of \( y = 2^{x^2} \) is symmetric about the y-axi
 
 
 <iframe src="https://script.google.com/macros/s/AKfycbxx0BIdiO2zxWAgz3KTQb6nAQ73NUWK9fRW4VwD7CRuSWI3i9LBGjzwpeSxE1v-XFQ/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
