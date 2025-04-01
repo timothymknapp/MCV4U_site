@@ -149,3 +149,8 @@ Thus, the function is:
 
 \[ \boxed{\text{Concave Down: } \left(-\frac{1}{2}, \frac{1}{2}\right), \text{ Concave Up: } \left(-\infty, -\frac{1}{2}\right) \cup \left(\frac{1}{2}, \infty\right)} \]
 </details>
+
+
+
+<iframe src="https://script.google.com/macros/s/AKfycbyI6iwUHB5_3c2g5X1NN9ofEcxWPsUn_lPmvBjUOYuQn-p_ZwXynM5djzVXQdUzTnIJpQ/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+

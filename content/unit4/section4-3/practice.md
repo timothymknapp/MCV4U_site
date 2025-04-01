@@ -147,3 +147,6 @@ Find the \( y \)-coordinates:
 Thus, the points of inflection are:
 \[ \boxed{\left(\frac{1}{\sqrt{2}}, e^{-\frac{1}{2}}\right) \text{ and } \left(-\frac{1}{\sqrt{2}}, e^{-\frac{1}{2}}\right)} \]
 </details>
+
+<iframe src="https://script.google.com/macros/s/AKfycbzhT-nYR3QwPn2ko64sdDApWltyqhsv7pq8J2yddANTkFwIs7zn4mQtUcCG1kVRUI0/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+

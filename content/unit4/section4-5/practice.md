@@ -387,3 +387,7 @@ From our analysis:
 We can conclude that the graph of \( y = 2^{x^2} \) is symmetric about the y-axis, has a local minimum at \( x = 0 \), and grows rapidly as \( |x| \) increases. The graph will look like a "U"-shaped curve with exponential growth on both sides.
 
 </details>
+
+
+<iframe src="https://script.google.com/macros/s/AKfycbxx0BIdiO2zxWAgz3KTQb6nAQ73NUWK9fRW4VwD7CRuSWI3i9LBGjzwpeSxE1v-XFQ/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
