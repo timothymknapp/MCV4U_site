@@ -3,7 +3,7 @@ title = '4.6  Reconstructing Graphs'
 weight = 6
 +++
 
-# Connecting $ f(x) $, $ f'(x) $, and $ f''(x) $
+## Connecting $ f(x) $, $ f'(x) $, and $ f''(x) $
 
 ## From One Graph to Another: A Calculus Puzzle
 

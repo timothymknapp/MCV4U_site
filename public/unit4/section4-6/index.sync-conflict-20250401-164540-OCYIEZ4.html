@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/MrKnappsClass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=MrKnappsClass/livereload" data-no-instant defer></script>
     
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        
+            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
   MathJax = {
     tex: {
@@ -11,63 +11,63 @@
     }
   };
 </script>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4.6  Reconstructing Graphs :: Calculus Hub</title>
+        <meta name="description" content="">
+
+
+        <link rel="icon" href="/MrKnappsClass/images/favicon.png" type="image/png">
+
+        
     
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4.6 Practice :: Calculus Hub</title>
-    <meta name="description" content="">
-
-
-    <link rel="icon" href="/MrKnappsClass/images/favicon.png" type="image/png">
-
+        
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']], 
+            displayMath: [['$$', '$$'], ['\\[', '\\]']], 
+            processEscapes: true,
+            processEnvironments: true
+          },
+          options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+        };
+        
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true }
+          ]
+        });
+      });
+    </script>
+        
     
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']], 
-        displayMath: [['$$', '$$'], ['\\[', '\\]']], 
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
     
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-        { left: "\\(", right: "\\)", display: false },
-        { left: "\\[", right: "\\]", display: true }
-      ]
-    });
-  });
-</script>
-    
+    </head>
 
-
-</head>
-<body>
-   
+    <body>
     <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.139.4">
+    <meta name="generator" content="Hugo 0.141.0">
     <meta name="description" content="">
 
 
     <link rel="icon" href="/MrKnappsClass/images/favicon.png" type="image/png">
 
-    <title>4.6 Practice :: Calculus Hub</title>
+    <title>4.6  Reconstructing Graphs :: Calculus Hub</title>
     
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     
@@ -101,27 +101,27 @@
 </script>
 
     
-    <link href="/MrKnappsClass/css/nucleus.css?1743518739" rel="stylesheet">
+    <link href="/MrKnappsClass/css/nucleus.css?1743518493" rel="stylesheet">
     
-    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1743518739" rel="stylesheet">
-    
-    
-    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1743518739" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/auto-complete.css?1743518739" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1743518739" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/theme.css?1743518739" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/tabs.css?1743518739" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/hugo-theme.css?1743518739" rel="stylesheet">
+    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1743518493" rel="stylesheet">
     
     
-    <link href="/MrKnappsClass/theme-red.css?1743518739" rel="stylesheet">
+    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1743518493" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/auto-complete.css?1743518493" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1743518493" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/theme.css?1743518493" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/tabs.css?1743518493" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/hugo-theme.css?1743518493" rel="stylesheet">
+    
+    
+    <link href="/MrKnappsClass/theme-red.css?1743518493" rel="stylesheet">
 
-    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1743518739"></script>
+    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1743518493"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -132,7 +132,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/MrKnappsClass/unit4/section4-6/practice/">
+  <body class="" data-url="/MrKnappsClass/unit4/section4-6/">
     <nav id="sidebar" class="">
 
 
@@ -153,14 +153,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1743518739"></script>
-<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1743518739"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1743518493"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1743518493"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/MrKnappsClass\/";
+        var baseurl = "http:\/\/localhost:40775\/MrKnappsClass\/";
     
 </script>
-<script type="text/javascript" src="/MrKnappsClass/js/search.js?1743518739"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/search.js?1743518493"></script>
 
     
   </div>
@@ -2353,8 +2353,8 @@
   
     
     <li data-nav-id="/MrKnappsClass/unit4/section4-6/" title="4.6  Reconstructing Graphs" class="dd-item
-        parent
         
+        active
         
         ">
       <a href="/MrKnappsClass/unit4/section4-6/">
@@ -2400,7 +2400,7 @@
  
   
     
-      <li data-nav-id="/MrKnappsClass/unit4/section4-6/practice/" title="4.6 Practice" class="dd-item active">
+      <li data-nav-id="/MrKnappsClass/unit4/section4-6/practice/" title="4.6 Practice" class="dd-item ">
         <a href="/MrKnappsClass/unit4/section4-6/practice/">
         4.6 Practice
         
@@ -4880,14 +4880,26 @@
                     <span class="links">
                    
                    
-                     4.6 Practice
+                     4.6  Reconstructing Graphs
                    
                     </span>
                   </div>
                   
                       <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#connecting--fx---fx--and--fx-">Connecting , , and </a></li>
+    <li><a href="#from-one-graph-to-another-a-calculus-puzzle">From One Graph to Another: A Calculus Puzzle</a>
+      <ul>
+        <li><a href="#why-this-matters">Why This Matters</a></li>
+        <li><a href="#the-three-scenarios">The Three Scenarios</a></li>
+        <li><a href="#key-concepts-to-keep-in-mind">Key Concepts to Keep in Mind</a></li>
+        <li><a href="#what-youll-learn-in-this-section">What You’ll Learn in This Section</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -4903,27 +4915,101 @@
           
             <h1>
               
-              4.6 Practice
+              4.6  Reconstructing Graphs
             </h1>
           
 
         
 
-    
-     <section>
-        
 
+
+    <section>
+        
         <div class="container">
             
-            <main>
-                <p>Welcome to <strong>Calculus Hub</strong>, your one-stop resource for mastering Calculus!</p>
-
-            </main>
+                <h2 id="connecting--fx---fx--and--fx-">Connecting $ f(x) $, $ f'(x) $, and $ f''(x) $</h2>
+<h2 id="from-one-graph-to-another-a-calculus-puzzle">From One Graph to Another: A Calculus Puzzle</h2>
+<p>In this section, we’ll dive into a fascinating challenge: reconstructing graphs of related functions. You’ll be given <strong>one of the three graphs</strong>—the original function $ f(x) $, its first derivative $ f'(x) $, or its second derivative $ f''(x) $—and your task will be to deduce and sketch the other two graphs. This exercise will deepen your understanding of how $ f(x) $, $ f'(x) $, and $ f''(x) $ are interconnected.</p>
+<h3 id="why-this-matters">Why This Matters</h3>
+<p>Understanding the relationships between $ f(x) $, $ f'(x) $, and $ f''(x) $ is at the heart of calculus. These connections allow us to:</p>
+<ul>
+<li>Translate geometric features (like slopes and curvature) into mathematical insights.</li>
+<li>Analyze motion, growth, and change in real-world systems.</li>
+<li>Build intuition for how derivatives reveal the behavior of functions.</li>
+</ul>
+<p>By mastering this skill, you’ll gain a powerful tool for interpreting and visualizing the dynamic relationships between functions and their rates of change.</p>
+<hr>
+<h3 id="the-three-scenarios">The Three Scenarios</h3>
+<p>You’ll encounter three types of problems in this section:</p>
+<ol>
+<li>
+<p><strong>Given $ f'(x) $: Reconstruct $ f(x) $ and $ f''(x) $</strong></p>
+<ul>
+<li>Use the graph of $ f'(x) $ to determine where $ f(x) $ is increasing, decreasing, or has critical points.</li>
+<li>Analyze the slope of $ f'(x) $ to deduce the concavity of $ f(x) $ and sketch $ f''(x) $.</li>
+</ul>
+</li>
+<li>
+<p><strong>Given $ f(x) $: Reconstruct $ f'(x) $ and $ f''(x) $</strong></p>
+<ul>
+<li>Identify where $ f(x) $ is increasing or decreasing to sketch $ f'(x) $.</li>
+<li>Locate points of inflection and changes in concavity to deduce $ f''(x) $.</li>
+</ul>
+</li>
+<li>
+<p><strong>Given $ f''(x) $: Reconstruct $ f'(x) $ and $ f(x) $</strong></p>
+<ul>
+<li>Use the graph of $ f''(x) $ to determine where $ f'(x) $ is increasing or decreasing.</li>
+<li>Integrate $ f''(x) $ to infer the shape of $ f'(x) $ and then $ f(x) $.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="key-concepts-to-keep-in-mind">Key Concepts to Keep in Mind</h3>
+<p>To succeed in these tasks, remember the following relationships:</p>
+<ul>
+<li>
+<p><strong>From $ f(x) $ to $ f'(x) $:</strong></p>
+<ul>
+<li>The slope of $ f(x) $ determines the value of $ f'(x) $.</li>
+<li>Critical points of $ f(x) $ (where $ f'(x) = 0 $ or is undefined) correspond to zeros or discontinuities in $ f'(x) $.</li>
+</ul>
+</li>
+<li>
+<p><strong>From $ f'(x) $ to $ f''(x) $:</strong></p>
+<ul>
+<li>The slope of $ f'(x) $ determines the value of $ f''(x) $.</li>
+<li>Points of inflection in $ f(x) $ correspond to zeros or sign changes in $ f''(x) $.</li>
+</ul>
+</li>
+<li>
+<p><strong>From $ f''(x) $ to $ f'(x) $ and $ f(x) $:</strong></p>
+<ul>
+<li>The sign of $ f''(x) $ indicates the concavity of $ f(x) $.</li>
+<li>Integrating $ f''(x) $ gives the general shape of $ f'(x) $, and integrating $ f'(x) $ gives the shape of $ f(x) $.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="what-youll-learn-in-this-section">What You’ll Learn in This Section</h3>
+<p>In this section, you’ll:</p>
+<ul>
+<li>Practice interpreting the graphical relationships between $ f(x) $, $ f'(x) $, and $ f''(x) $.</li>
+<li>Develop skills in translating geometric features (like slopes, peaks, and curvature) into mathematical insights.</li>
+<li>Gain confidence in reconstructing missing graphs based on partial information.</li>
+</ul>
+<p>This exercise will sharpen your ability to think critically about how functions and their derivatives interact—a cornerstone of calculus.</p>
+<hr>
 
             
+
             
         </div>
     </section>
+
+    <footer class="footline">
+        
+    </footer>
 
             
         </div>
@@ -6316,7 +6402,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -6335,9 +6420,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -7810,10 +7892,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/MrKnappsClass/unit4/section4-6/notes/" title="4.6 Examples"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/MrKnappsClass/unit4/section4-5/practice/" title="4.5 Practice"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/MrKnappsClass/unit4/section4-7/" title="4.7 Building Functions" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/MrKnappsClass/unit4/section4-6/notes/" title="4.6 Examples" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -7823,19 +7905,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/MrKnappsClass/js/clipboard.min.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/jquery.sticky.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/featherlight.min.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/highlight.pack.js?1743518739"></script>
+    <script src="/MrKnappsClass/js/clipboard.min.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/jquery.sticky.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/featherlight.min.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/highlight.pack.js?1743518493"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/learn.js?1743518739"></script>
-    <script src="/MrKnappsClass/js/hugo-learn.js?1743518739"></script>
+    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/learn.js?1743518493"></script>
+    <script src="/MrKnappsClass/js/hugo-learn.js?1743518493"></script>
     
         
-            <script src="/MrKnappsClass/mermaid/mermaid.js?1743518739"></script>
+            <script src="/MrKnappsClass/mermaid/mermaid.js?1743518493"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
