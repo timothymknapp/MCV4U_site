@@ -106,3 +106,8 @@ Thus, the function is:
 
 \[ \boxed{\text{Increasing: } (-\infty, 0), \text{ Decreasing: } (0, \infty)} \]
 </details>
+
+
+<iframe src="https://script.google.com/macros/s/AKfycbzXMwcgP2DOLo4-a56vfby5wg-lkn_Fd-AkDwwEBxH6hU7liGA9Et4vO0DHnLABzp_6/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
