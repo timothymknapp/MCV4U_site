@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5.3: Optimization on Calculus Hub</title>
-    <link>http://localhost:1313/unit5/section5-3/</link>
+    <link>http://localhost:1313/MrKnappsClass/unit5/section5-3/</link>
     <description>Recent content in 5.3: Optimization on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/unit5/section5-3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MrKnappsClass/unit5/section5-3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5.3 Examples</title>
-      <link>http://localhost:1313/unit5/section5-3/notes/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit5/section5-3/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/unit5/section5-3/notes/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-3/notes/</guid>
       <description>&lt;h2 id=&#34;ex1-optimization---maximizing-area&#34;&gt;Ex1 Optimization - Maximizing Area&lt;/h2&gt;&#xA;&lt;p&gt;A farmer wants to build a rectangular enclosure along a straight riverbank. The farmer has $ 100 \, \text{m} $ of fencing material and does not need to fence the side along the river. What dimensions should the farmer use to maximize the area of the enclosure?&lt;/p&gt;&#xA;&lt;h4 id=&#34;solution&#34;&gt;Solution:&lt;/h4&gt;&#xA;&lt;h5 id=&#34;step-1-understand-the-problem-and-identify-known-quantities&#34;&gt;Step 1: Understand the problem and identify known quantities.&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Let:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$ x $ = length of the side perpendicular to the river (two sides),&lt;/li&gt;&#xA;&lt;li&gt;$ y $ = length of the side parallel to the river (one side).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;The total amount of fencing material available is $ 100 \, \text{m} $. Since no fencing is needed along the river, the total fencing used is:&#xA;$$&#xA;2x + y = 100.&#xA;$$&lt;/li&gt;&#xA;&lt;li&gt;The area of the enclosure is given by:&#xA;$$&#xA;A = x \cdot y.&#xA;$$&lt;/li&gt;&#xA;&lt;li&gt;We need to &lt;strong&gt;maximize the area $ A $&lt;/strong&gt; subject to the constraint $ 2x + y = 100 $.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;step-2-express-the-area-in-terms-of-one-variable&#34;&gt;Step 2: Express the area in terms of one variable.&lt;/h5&gt;&#xA;$$&#xA;y = 100 - 2x.&#xA;$$$$&#xA;A = x \cdot y = x(100 - 2x) = 100x - 2x^2.&#xA;$$&lt;h5 id=&#34;step-3-differentiate-the-area-function&#34;&gt;Step 3: Differentiate the area function.&lt;/h5&gt;&#xA;$$&#xA;\frac{dA}{dx} = 100 - 4x.&#xA;$$&lt;h5 id=&#34;step-4-solve-for-critical-points&#34;&gt;Step 4: Solve for critical points.&lt;/h5&gt;&#xA;$$&#xA;100 - 4x = 0,&#xA;$$$$&#xA;4x = 100,&#xA;$$$$&#xA;x = 25.&#xA;$$&lt;h5 id=&#34;step-5-verify-that-this-value-of--x--gives-a-maximum&#34;&gt;Step 5: Verify that this value of $ x $ gives a maximum.&lt;/h5&gt;&#xA;$$&#xA;\frac{d^2A}{dx^2} = -4.&#xA;$$&lt;p&gt;&#xA;Since $ \frac{d^2A}{dx^2} &lt; 0 $, the function $ A $ has a maximum at $ x = 25 $.&lt;/p&gt;</description>
     </item>
     <item>
       <title>5.3 Practice</title>
-      <link>http://localhost:1313/unit5/section5-3/practice/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit5/section5-3/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/unit5/section5-3/practice/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-3/practice/</guid>
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
     </item>
   </channel>
