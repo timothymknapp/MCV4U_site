@@ -101,27 +101,27 @@
 </script>
 
     
-    <link href="/MrKnappsClass/css/nucleus.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/nucleus.css?1744811791" rel="stylesheet">
     
-    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1744440158" rel="stylesheet">
-    
-    
-    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/auto-complete.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/theme.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/tabs.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/hugo-theme.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1744811791" rel="stylesheet">
     
     
-    <link href="/MrKnappsClass/theme-red.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/auto-complete.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/theme.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/tabs.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/hugo-theme.css?1744811791" rel="stylesheet">
+    
+    
+    <link href="/MrKnappsClass/theme-red.css?1744811791" rel="stylesheet">
 
-    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1744811791"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -153,14 +153,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1744440158"></script>
-<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1744440158"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1744811791"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1744811791"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/MrKnappsClass\/";
     
 </script>
-<script type="text/javascript" src="/MrKnappsClass/js/search.js?1744440158"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/search.js?1744811791"></script>
 
     
   </div>
@@ -4887,7 +4887,15 @@
                   
                       <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -4916,7 +4924,100 @@
         <div class="container">
             
             <main>
-                <p>Welcome to <strong>Calculus Hub</strong>, your one-stop resource for mastering Calculus!</p>
+                <h4 id="ex1">Ex1.</h4>
+<p>A farmer wants to build a rectangular pen using <strong>100 meters of fencing</strong>, and one side of the pen will be along an existing <strong>barn wall</strong> (so it doesn’t need fencing). What dimensions maximize the area of the pen?</p>
+<details>
+  <summary>
+    <strong id="solution-title">Solution</strong>
+  </summary>
+<ol>
+<li>
+$$
+   x + 2y = 100.
+   $$</li>
+<li>
+$$
+   x = 100 - 2y.
+   $$</li>
+<li>
+$$
+   A = x \cdot y = (100 - 2y) \cdot y = 100y - 2y^2.
+   $$</li>
+<li>
+$$
+   \frac{dA}{dy} = 100 - 4y.
+   $$$$
+   100 - 4y = 0 \Rightarrow y = 25.
+   $$$$
+   x = 100 - 2(25) = 50.
+   $$</li>
+</ol>
+$$
+\boxed{50 \, \text{m} \times 25 \, \text{m}}.
+$$</details>
+<hr>
+<h4 id="ex2">Ex2.</h4>
+<p>A box with a <strong>square base and open top</strong> must have a volume of <strong>32,000 cm³</strong>. What dimensions minimize the surface area?</p>
+<details>
+  <summary>
+    <strong id="solution-title">Solution</strong>
+  </summary>
+<ol>
+<li>
+$$
+   V = x^2 h = 32000 \quad \Rightarrow \quad h = \frac{32000}{x^2}.
+   $$</li>
+<li>
+$$
+   A = x^2 + 4xh.
+   $$$$
+   A(x) = x^2 + 4x \cdot \frac{32000}{x^2} = x^2 + \frac{128000}{x}.
+   $$</li>
+<li>
+$$
+   \frac{dA}{dx} = 2x - \frac{128000}{x^2}.
+   $$$$
+   2x = \frac{128000}{x^2} \Rightarrow 2x^3 = 128000 \Rightarrow x^3 = 64000 \Rightarrow x = 40.
+   $$$$
+   h = \frac{32000}{40^2} = \frac{32000}{1600} = 20.
+   $$</li>
+</ol>
+$$
+\boxed{40 \, \text{cm} \times 40 \, \text{cm} \times 20 \, \text{cm}}.
+$$</details>
+<hr>
+<h4 id="ex3">Ex3.</h4>
+<p>A rectangle is inscribed under the parabola $ y = 9 - x^2 $ and above the x-axis. What is the <strong>maximum area</strong> of such a rectangle?</p>
+<details>
+  <summary>
+    <strong id="solution-title">Solution</strong>
+  </summary>
+<ol>
+<li>
+$$
+   \text{Width} = 2x, \quad \text{Height} = 9 - x^2.
+   $$</li>
+<li>
+$$
+   A(x) = 2x(9 - x^2) = 18x - 2x^3.
+   $$</li>
+<li>
+$$
+   \frac{dA}{dx} = 18 - 6x^2.
+   $$$$
+   18 = 6x^2 \Rightarrow x^2 = 3 \Rightarrow x = \sqrt{3}.
+   $$$$
+   y = 9 - 3 = 6.
+   $$</li>
+<li>
+$$
+   A = 2\sqrt{3} \cdot 6 = 12\sqrt{3}.
+   $$</li>
+</ol>
+$$
+\boxed{12\sqrt{3} \, \text{units}^2 \, \text{(or approximately } 20.78 \, \text{units}^2)}.
+$$</details>
+<iframe src="https://script.google.com/macros/s/AKfycbwee9y604QQKsxCNXM2hFXOkbeFZp4U3uEkMMvoIIW1vPzzT_ZRIDI_m7zI5mwdnbLM/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
             </main>
 
@@ -7823,19 +7924,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/MrKnappsClass/js/clipboard.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/jquery.sticky.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/featherlight.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/highlight.pack.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/clipboard.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/jquery.sticky.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/featherlight.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/highlight.pack.js?1744811791"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/learn.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/hugo-learn.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/learn.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/hugo-learn.js?1744811791"></script>
     
         
-            <script src="/MrKnappsClass/mermaid/mermaid.js?1744440158"></script>
+            <script src="/MrKnappsClass/mermaid/mermaid.js?1744811791"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

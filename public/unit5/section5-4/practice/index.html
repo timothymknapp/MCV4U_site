@@ -101,27 +101,27 @@
 </script>
 
     
-    <link href="/MrKnappsClass/css/nucleus.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/nucleus.css?1744811791" rel="stylesheet">
     
-    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1744440158" rel="stylesheet">
-    
-    
-    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/auto-complete.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/theme.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/tabs.css?1744440158" rel="stylesheet">
-    
-    <link href="/MrKnappsClass/css/hugo-theme.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1744811791" rel="stylesheet">
     
     
-    <link href="/MrKnappsClass/theme-red.css?1744440158" rel="stylesheet">
+    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/auto-complete.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/theme.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/tabs.css?1744811791" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/hugo-theme.css?1744811791" rel="stylesheet">
+    
+    
+    <link href="/MrKnappsClass/theme-red.css?1744811791" rel="stylesheet">
 
-    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1744811791"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -153,14 +153,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1744440158"></script>
-<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1744440158"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1744811791"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1744811791"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/MrKnappsClass\/";
     
 </script>
-<script type="text/javascript" src="/MrKnappsClass/js/search.js?1744440158"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/search.js?1744811791"></script>
 
     
   </div>
@@ -4887,7 +4887,15 @@
                   
                       <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -4916,7 +4924,125 @@
         <div class="container">
             
             <main>
-                <p>Welcome to <strong>Calculus Hub</strong>, your one-stop resource for mastering Calculus!</p>
+                <h4 id="ex1">Ex1.</h4>
+<p>A company currently sells 500 units of a product at a price of $ \text{\$20}$ per unit. A survey shows that for every \$1 increase in price, the company will sell 20 fewer units. The cost function is:</p>
+$$
+C(q) = 3000 + 5q,
+$$<p>where $ q $ is the number of units sold. What price should the company charge to <strong>maximize profit</strong>?</p>
+<details>
+  <summary>
+    <strong id="solution-title">Solution</strong>
+  </summary>
+<ol>
+<li>
+<p>Let $ x $ be the number of <strong>$1 price increases</strong>.<br>
+Then:</p>
+<ul>
+<li>New price = $ 20 + x $</li>
+<li>New quantity = $ 500 - 20x $</li>
+</ul>
+</li>
+<li>
+<p>Revenue function:</p>
+$$
+   R(x) = \text{price} \times \text{quantity} = (20 + x)(500 - 20x).
+   $$</li>
+<li>
+<p>Cost function in terms of $ x $:</p>
+$$
+   q = 500 - 20x \quad \Rightarrow \quad C(x) = 3000 + 5(500 - 20x) = 3000 + 2500 - 100x = 5500 - 100x.
+   $$</li>
+<li>
+<p>Profit function:</p>
+$$
+   P(x) = R(x) - C(x) = (20 + x)(500 - 20x) - (5500 - 100x).
+   $$</li>
+<li>
+<p>Expand and simplify:</p>
+$$
+   (20 + x)(500 - 20x) = 10000 - 400x + 500x - 20x^2 = 10000 + 100x - 20x^2,
+   $$$$
+   P(x) = (10000 + 100x - 20x^2) - (5500 - 100x) = 10000 + 100x - 20x^2 - 5500 + 100x = 4500 + 200x - 20x^2.
+   $$</li>
+<li>
+<p>Maximize profit:</p>
+$$
+   \frac{dP}{dx} = 200 - 40x = 0 \Rightarrow x = 5.
+   $$</li>
+<li>
+<p>Final answers:</p>
+<ul>
+<li>
+<p>Price = $ 20 + 5 = \boxed{\$25} $</p>
+</li>
+<li>
+<p>Quantity = $ 500 - 20(5) = 400 $</p>
+</li>
+<li>
+<p>Max profit = optional but:</p>
+$$
+     P(5) = 4500 + 200(5) - 20(25) = 4500 + 1000 - 500 = \boxed{5000}.
+     $$</li>
+</ul>
+</li>
+</ol>
+</details>
+<hr>
+<h4 id="ex2">Ex2.</h4>
+<p>A bakery currently sells 1000 croissants per week at a price of $ \text{ \$ 2.50}$. Market research shows that for every \$ 0.10 increase, the bakery will sell 30 fewer croissants. The weekly cost function is:</p>
+$$
+C(q) = 400 + 1.2q.
+$$<p>What price should be charged to <strong>maximize weekly profit</strong>?</p>
+<details>
+  <summary>
+    <strong id="solution-title">Solution</strong>
+  </summary>
+<ol>
+<li>
+<p>Let $ x $ be the number of <strong>$0.10 increases</strong> in price:</p>
+<ul>
+<li>New price = $ 2.50 + 0.10x $</li>
+<li>New quantity = $ 1000 - 30x $</li>
+</ul>
+</li>
+<li>
+<p>Revenue:</p>
+$$
+   R(x) = (2.50 + 0.10x)(1000 - 30x).
+   $$</li>
+<li>
+<p>Cost function in terms of $ x $:</p>
+$$
+   q = 1000 - 30x \quad \Rightarrow \quad C(x) = 400 + 1.2(1000 - 30x) = 400 + 1200 - 36x = 1600 - 36x.
+   $$</li>
+<li>
+<p>Profit function:</p>
+$$
+   P(x) = R(x) - C(x) = (2.50 + 0.10x)(1000 - 30x) - (1600 - 36x).
+   $$</li>
+<li>
+<p>Expand:</p>
+$$
+   (2.50 + 0.10x)(1000 - 30x) = 2500 - 75x + 100x - 3x^2 = 2500 + 25x - 3x^2,
+   $$$$
+   P(x) = (2500 + 25x - 3x^2) - (1600 - 36x) = 2500 + 25x - 3x^2 - 1600 + 36x = 900 + 61x - 3x^2.
+   $$</li>
+<li>
+<p>Maximize:</p>
+$$
+   \frac{dP}{dx} = 61 - 6x = 0 \Rightarrow x = \frac{61}{6} \approx 10.17.
+   $$</li>
+<li>
+<p>Final answer:</p>
+<ul>
+<li>Price = $ 2.50 + 0.10 \cdot 10.17 = \boxed{\$3.52} $</li>
+<li>Quantity = $ 1000 - 30(10.17) \approx 694.9 \approx 695 $</li>
+<li>Max profit (optional): plug into $ P(x) $</li>
+</ul>
+</li>
+</ol>
+</details>
+<iframe src="https://script.google.com/macros/s/AKfycbyVZSVGIQVQIZE_6kIYprBQYxZN9teivQZezeRgX-D5mZeNNx4JC_c7fKu-EY9QCeqkUA/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
             </main>
 
@@ -7823,19 +7949,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/MrKnappsClass/js/clipboard.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/jquery.sticky.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/featherlight.min.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/highlight.pack.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/clipboard.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/jquery.sticky.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/featherlight.min.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/highlight.pack.js?1744811791"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/learn.js?1744440158"></script>
-    <script src="/MrKnappsClass/js/hugo-learn.js?1744440158"></script>
+    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/learn.js?1744811791"></script>
+    <script src="/MrKnappsClass/js/hugo-learn.js?1744811791"></script>
     
         
-            <script src="/MrKnappsClass/mermaid/mermaid.js?1744440158"></script>
+            <script src="/MrKnappsClass/mermaid/mermaid.js?1744811791"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

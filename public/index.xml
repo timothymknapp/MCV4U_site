@@ -607,14 +607,14 @@
       <link>http://localhost:1313/MrKnappsClass/unit5/section5-3/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit5/section5-3/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A farmer wants to build a rectangular pen using &lt;strong&gt;100 meters of fencing&lt;/strong&gt;, and one side of the pen will be along an existing &lt;strong&gt;barn wall&lt;/strong&gt; (so it doesn’t need fencing). What dimensions maximize the area of the pen?&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;$$&#xA;   x + 2y = 100.&#xA;   $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;$$&#xA;   x = 100 - 2y.&#xA;   $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;$$&#xA;   A = x \cdot y = (100 - 2y) \cdot y = 100y - 2y^2.&#xA;   $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;$$&#xA;   \frac{dA}{dy} = 100 - 4y.&#xA;   $$$$&#xA;   100 - 4y = 0 \Rightarrow y = 25.&#xA;   $$$$&#xA;   x = 100 - 2(25) = 50.&#xA;   $$&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;$$&#xA;\boxed{50 \, \text{m} \times 25 \, \text{m}}.&#xA;$$&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;A box with a &lt;strong&gt;square base and open top&lt;/strong&gt; must have a volume of &lt;strong&gt;32,000 cm³&lt;/strong&gt;. What dimensions minimize the surface area?&lt;/p&gt;</description>
     </item>
     <item>
       <title>5.4 Practice</title>
       <link>http://localhost:1313/MrKnappsClass/unit5/section5-4/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit5/section5-4/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A company currently sells 500 units of a product at a price of $ \text{\$20}$ per unit. A survey shows that for every \$1 increase in price, the company will sell 20 fewer units. The cost function is:&lt;/p&gt;&#xA;$$&#xA;C(q) = 3000 + 5q,&#xA;$$&lt;p&gt;where $ q $ is the number of units sold. What price should the company charge to &lt;strong&gt;maximize profit&lt;/strong&gt;?&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Let $ x $ be the number of &lt;strong&gt;$1 price increases&lt;/strong&gt;.&lt;br&gt;&#xA;Then:&lt;/p&gt;</description>
     </item>
     <item>
       <title>5.5 Practice</title>
