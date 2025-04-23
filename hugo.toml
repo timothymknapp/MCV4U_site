@@ -4,10 +4,10 @@
 # baseURL = "http://localhost:1313/"
 
 # Base URL for Surge deployment (uncomment when deploying to Surge)
-baseURL = "https://mr.knapp.surge.sh"
+# baseURL = "https://mr.knapp.surge.sh"
 
 # Base URL for GitHub Pages (uncomment when deploying to GitHub Pages)
-# baseURL = "https://timothymknapp.github.io/MrKnappsClass/"
+baseURL = "https://timothymknapp.github.io/MrKnappsClass/"
 
 title = "Calculus Hub"
 theme = "hugo-theme-learn"
