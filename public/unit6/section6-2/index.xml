@@ -8,18 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/MrKnappsClass/unit6/section6-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>6.2 Notes</title>
+      <title>6.2 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-2/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-2/notes/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we’ll work through example problems that reinforce the concepts of vector addition. These examples cover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adding &lt;strong&gt;parallel vectors&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Adding &lt;strong&gt;perpendicular vectors&lt;/strong&gt; using the Pythagorean theorem.&lt;/li&gt;&#xA;&lt;li&gt;Adding &lt;strong&gt;oblique vectors&lt;/strong&gt; using the &lt;strong&gt;component method&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-adding-parallel-vectors&#34;&gt;Example 1: Adding Parallel Vectors&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;:&lt;br&gt;&#xA;A car moves 10 km [E] and then another 15 km [E]. Find the resultant displacement.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Since the vectors are parallel and in the same direction, add their magnitudes:&lt;/p&gt;</description>
     </item>
     <item>
       <title>6.2 Practice</title>
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-2/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-2/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A plane flies 200 km [E] and then another 300 km [E]. Find the resultant displacement.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Since the vectors are parallel and in the same direction, add their magnitudes:&lt;/p&gt;&#xA;$$&#xA;   R = |\vec{A}| + |\vec{B}| = 200~\text{km} + 300~\text{km} = 500~\text{km}.&#xA;   $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The direction of the resultant is the same as the original vectors:&lt;/p&gt;&#xA;$$&#xA;   \text{Direction: East}.&#xA;   $$&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;:&lt;br&gt;&#xA;The resultant displacement is $ \boxed{500~\text{km [E]}} $.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;A drone moves 4 km [N] and then 3 km [W]. Find the magnitude and direction of the resultant displacement.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
