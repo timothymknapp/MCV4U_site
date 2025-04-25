@@ -1,5 +1,5 @@
 +++
-title = 'Section 6.2'
+title = '6.2 Vector Addition'
 weight = 2
 +++
 

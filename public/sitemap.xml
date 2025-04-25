@@ -222,6 +222,8 @@
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit6/section6-2/practice/</loc>
   </url><url>
+    <loc>http://localhost:1313/MrKnappsClass/unit6/section6-2/</loc>
+  </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit6/section6-3/practice/</loc>
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit6/section6-4/practice/</loc>
@@ -259,8 +261,6 @@
     <loc>http://localhost:1313/MrKnappsClass/unit8/section8-6/practice/</loc>
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit8/section8-7/practice/</loc>
-  </url><url>
-    <loc>http://localhost:1313/MrKnappsClass/unit6/section6-2/</loc>
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit7/section7-2/</loc>
   </url><url>
@@ -308,9 +308,9 @@
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit4/section4-5/</loc>
   </url><url>
-    <loc>http://localhost:1313/MrKnappsClass/unit5/section5-5/</loc>
-  </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit6/section6-5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/MrKnappsClass/unit5/section5-5/</loc>
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit7/section7-5/</loc>
   </url><url>
@@ -326,9 +326,9 @@
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit4/section4-6/</loc>
   </url><url>
-    <loc>http://localhost:1313/MrKnappsClass/unit5/section5-6/</loc>
-  </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit6/section6-6/</loc>
+  </url><url>
+    <loc>http://localhost:1313/MrKnappsClass/unit5/section5-6/</loc>
   </url><url>
     <loc>http://localhost:1313/MrKnappsClass/unit7/section7-6/</loc>
   </url><url>

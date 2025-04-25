@@ -1,5 +1,5 @@
 +++
-title = 'Section 6.5'
+title = '6.5 Cross Product'
 weight = 5
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = 'Section 6.4'
+title = '6.4 Dot Product'
 weight =4
 +++
 

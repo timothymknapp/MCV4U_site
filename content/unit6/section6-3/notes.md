@@ -4,97 +4,130 @@ weight = 1
 +++
 
 
-In this section, we’ll work through example problems that reinforce the geometric interpretation of the **dot product**:  
-$$
-\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta
-$$  
-where $|\vec{a}|$ and $|\vec{b}|$ are the magnitudes of the vectors, and $\theta$ is the angle between them.
+In this section, we’ll work through additional example problems that reinforce the concepts of scalar multiplication. These examples use different numbers and contexts to help you practice scaling vectors geometrically.
 
 ---
 
-## Example 1: Conceptual Question on Dot Product and Vector Addition
+## Example 1: Scaling a Vector by a Fraction
 
-**Question**:  
-Explain how the dot product interacts with vector addition. Specifically, if $\vec{c} = \vec{a} + \vec{b}$, does $\vec{c} \cdot \vec{d}$ equal $(\vec{a} \cdot \vec{d}) + (\vec{b} \cdot \vec{d})$? Why or why not?
+A vector $\vec{v}$ has a magnitude of 12 units and points due north. Find the new vector if it is scaled by a factor of $ \frac{1}{3} $.
 
 **Solution**:  
-Yes, the dot product is **distributive** over vector addition. This means:
-$$
-\vec{c} \cdot \vec{d} = (\vec{a} + \vec{b}) \cdot \vec{d} = (\vec{a} \cdot \vec{d}) + (\vec{b} \cdot \vec{d})
-$$
-This property arises because the dot product is a linear operation. Geometrically, it means you can calculate the projection of each component of $\vec{c}$ onto $\vec{d}$ separately and then sum the results.
+When a vector is multiplied by a positive scalar ($k > 0$), its magnitude is scaled by $|k|$, and its direction remains unchanged.  
+- Magnitude of the new vector:
+ 
+  $$
+  |\vec{v}_{\text{new}}| = |k| \cdot |\vec{v}| = \frac{1}{3} \cdot 12 = 4~\text{units}.
+  $$
+
+The direction of the vector remains due north.  
+
+**Answer**:  
+The new vector has a magnitude of $ \boxed{4~\text{units [N]}} $.
 
 ---
 
-## Example 2: Calculating the Dot Product from Quadrant Bearings
+## Example 2: Reversing and Stretching a Vector
 
-**Question**:  
-Two vectors are given in quadrant bearing notation:
-- $\vec{a} = 5~\text{units}, \text{N45°E}$
-- $\vec{b} = 8~\text{units}, \text{S60°E}$
-
-Calculate the dot product $\vec{a} \cdot \vec{b}$.
+A vector $\vec{u}$ has a magnitude of 9 units and points due west. Find the new vector if it is scaled by a factor of $-4$.
 
 **Solution**:  
-1. Convert the quadrant bearings into angles relative to the positive x-axis (east):
-   - For $\vec{a}$: N45°E means $90^\circ - 45^\circ = 45^\circ$.
-   - For $\vec{b}$: S60°E means $270^\circ - 60^\circ = 210^\circ$.
+When a vector is multiplied by a negative scalar ($k < 0$), its magnitude is scaled by $|k|$, and its direction is reversed.  
+- Magnitude of the new vector:
+ 
+  $$
+  |\vec{u}_{\text{new}}| = |k| \cdot |\vec{u}| = |-4| \cdot 9 = 36~\text{units}.
+  $$
 
-2. Find the angle $\theta$ between the two vectors:
-   - The difference between their directions is $|210^\circ - 45^\circ| = 165^\circ$.
+The direction of the vector is reversed from west to east.  
 
-3. Use the dot product formula:
-   $$
-   \vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta
-   $$
-   Substituting the values:
-   $$
-   \vec{a} \cdot \vec{b} = (5)(8) \cos(165^\circ)
-   $$
+**Answer**:  
+The new vector has a magnitude of $ \boxed{36~\text{units [E]}} $.
 
-4. Calculate $\cos(165^\circ)$:
-   - Using a calculator, $\cos(165^\circ) \approx -0.9659$.
+---
 
-5. Final calculation:
+## Example 3: Combining Scalar Multiplication with Addition
+
+Two vectors are given: $\vec{a} = 6~\text{units [E]}$ and $\vec{b} = 8~\text{units [S]}$. Find the resultant vector if both vectors are scaled by a factor of $0.5$ and then added together.
+
+**Solution**:  
+1. Scale each vector by $0.5$:  
+   - For $\vec{a}$:
+ 
+     $$
+     \vec{a}_{\text{scaled}} = 0.5 \cdot \vec{a} = 0.5 \cdot 6 = 3~\text{units [E]}.
+     $$
+ 
+   - For $\vec{b}$:
+ 
+     $$
+     \vec{b}_{\text{scaled}} = 0.5 \cdot \vec{b} = 0.5 \cdot 8 = 4~\text{units [S]}.
+     $$
+
+2. Add the scaled vectors using the Pythagorean theorem:  
+   - Magnitude of the resultant:
+ 
+     $$
+     R = \sqrt{|\vec{a}_{\text{scaled}}|^2 + |\vec{b}_{\text{scaled}}|^2} = \sqrt{(3)^2 + (4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5~\text{units}.
+     $$
+
+3. Use trigonometry to find the direction. Let $\theta$ be the angle south of east:
+ 
    $$
-   \vec{a} \cdot \vec{b} = (5)(8)(-0.9659) \approx -38.64
+   \tan\theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{4}{3}.
+   $$
+ 
+   $$
+   \theta = \tan^{-1}\left(\frac{4}{3}\right) \approx 53.1^\circ.
    $$
 
 **Answer**:  
-The dot product is approximately $-38.64$.
+The resultant vector has a magnitude of $ \boxed{5~\text{units [53.1° S of E]}} $.
 
 ---
 
-## Example 3: Determining Orthogonality Using the Dot Product
+## Example 4: Interpreting Scalar Multiplication in Context
 
-**Question**:  
-Two vectors are given:
-- $\vec{u} = 6~\text{units}, \text{due east}$
-- $\vec{v} = 4~\text{units}, \text{due north}$
-
-Are these vectors orthogonal? Justify your answer using the dot product.
+A boat is traveling at a velocity of $15~\text{m/s [N]}$. If the boat slows down to half its original speed, what is the new velocity vector?
 
 **Solution**:  
-1. Recall that two vectors are orthogonal if their dot product is zero:
-   $$
-   \vec{u} \cdot \vec{v} = |\vec{u}| |\vec{v}| \cos\theta
-   $$
+Slowing down to half the speed corresponds to multiplying the velocity vector by a scalar of $0.5$:  
+- Magnitude of the new velocity:
+ 
+  $$
+  |\vec{v}_{\text{new}}| = |k| \cdot |\vec{v}| = 0.5 \cdot 15 = 7.5~\text{m/s}.
+  $$
 
-2. Determine the angle $\theta$ between the vectors:
-   - $\vec{u}$ points due east ($0^\circ$), and $\vec{v}$ points due north ($90^\circ$).
-   - The angle between them is $90^\circ$.
+The direction of the velocity remains due north.  
 
-3. Substitute into the formula:
-   $$
-   \vec{u} \cdot \vec{v} = (6)(4) \cos(90^\circ)
-   $$
-
-4. Since $\cos(90^\circ) = 0$, the dot product becomes:
-   $$
-   \vec{u} \cdot \vec{v} = (6)(4)(0) = 0
-   $$
-
-**Conclusion**:  
-The dot product is zero, so the vectors are orthogonal.
+**Answer**:  
+The new velocity vector is $ \boxed{7.5~\text{m/s [N]}} $.
 
 ---
+
+## Example 5: Scaling a Vector in an Oblique Direction
+
+A vector $\vec{w}$ has a magnitude of 10 units and points $30^\circ$ north of east. Find the new vector if it is scaled by a factor of $-2$.
+
+**Solution**:  
+1. When a vector is multiplied by a negative scalar ($k < 0$), its magnitude is scaled by $|k|$, and its direction is reversed.  
+   - Magnitude of the new vector:
+ 
+     $$
+     |\vec{w}_{\text{new}}| = |k| \cdot |\vec{w}| = |-2| \cdot 10 = 20~\text{units}.
+     $$
+
+2. The direction is reversed. Since the original vector points $30^\circ$ north of east, the reversed vector will point $30^\circ$ south of west.  
+
+**Answer**:  
+The new vector has a magnitude of $ \boxed{20~\text{units [30° S of W]}} $.
+
+---
+
+## Wrapping Up
+
+These examples demonstrate how scalar multiplication works in various contexts:
+- Scaling vectors by fractions or integers.
+- Reversing and stretching vectors.
+- Combining scalar multiplication with vector addition.
+- Interpreting scalar multiplication in real-world scenarios like velocity changes.

@@ -1,5 +1,5 @@
 +++
-title = 'Section 6.6'
+title = '6.6 Vector Applications'
 weight = 6
 +++
 
