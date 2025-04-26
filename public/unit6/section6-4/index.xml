@@ -8,7 +8,7 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/MrKnappsClass/unit6/section6-4/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>6.4 Notes</title>
+      <title>6.4 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-4/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-4/notes/</guid>
@@ -19,7 +19,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-4/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-4/practice/</guid>
-      <description>&lt;iframe src=&#34;https://script.google.com/macros/s/AKfycbwm1h8rTfMPjpqDBn-hNiRw2NG1XMqiM8n0_fPBNa0DGIp4WkdnO60nvIPrWraYbRoS/exec&#34; width=&#34;80%&#34; height=&#34;1000px&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-calculating-the-dot-product&#34;&gt;Example 1: Calculating the Dot Product&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$|\vec{a}| = 5~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;$|\vec{b}| = 8~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;The angle between them is $\theta = 60^\circ$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the dot product $\vec{a} \cdot \vec{b}$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;Using the formula for the dot product:&lt;/p&gt;&#xA;$$&#xA;\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta&#xA;$$&lt;p&gt;Substitute the given values:&lt;/p&gt;&#xA;$$&#xA;\vec{a} \cdot \vec{b} = (5)(8) \cos(60^\circ)&#xA;$$&lt;p&gt;From trigonometry, $\cos(60^\circ) = 0.5$. Therefore:&lt;/p&gt;&#xA;$$&#xA;\vec{a} \cdot \vec{b} = (5)(8)(0.5) = 20&#xA;$$&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;:&lt;br&gt;&#xA;The dot product is $ \boxed{20} $.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

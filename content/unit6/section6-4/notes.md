@@ -1,5 +1,5 @@
 +++
-title = '6.4 Notes'
+title = '6.4 Examples'
 weight = 1
 +++
 
