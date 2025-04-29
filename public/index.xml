@@ -232,11 +232,11 @@
       <description>&lt;p&gt;In this section, we’ll work through example problems that reinforce the concepts of the &lt;strong&gt;cross product&lt;/strong&gt;. These examples use the geometric definition of the cross product:&lt;/p&gt;&#xA;$$&#xA;|\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta&#xA;$$&lt;p&gt;and the &lt;strong&gt;right-hand rule&lt;/strong&gt; to determine the direction of the resulting vector.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-calculating-the-magnitude-of-the-cross-product&#34;&gt;Example 1: Calculating the Magnitude of the Cross Product&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$|\vec{a}| = 4~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;$|\vec{b}| = 6~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;The angle between them is $\theta = 30^\circ$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the magnitude of the cross product $|\vec{a} \times \vec{b}|$.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>6.6 Notes</title>
+      <title>6.6 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-6/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-6/notes/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we’ll work through example problems that demonstrate the practical applications of geometric vectors. These examples cover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Vector addition.&lt;/li&gt;&#xA;&lt;li&gt;Dot product applications (work and projections).&lt;/li&gt;&#xA;&lt;li&gt;Cross product applications (torque and area).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-vector-addition&#34;&gt;Example 1: Vector Addition&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A plane is flying due east at $200~\text{km/h}$ relative to the air. A wind blows from the north at $50~\text{km/h}$. Find the resultant velocity of the plane relative to the ground.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>6.7 Notes</title>
@@ -677,7 +677,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-6/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-6/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A boat is traveling due north at $15~\text{km/h}$ relative to the water. A current flows from the west at $5~\text{km/h}$. Find the resultant velocity of the boat relative to the ground.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Represent the velocities as vectors:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Boat’s velocity: $\vec{v}_{\text{boat}} = 15~\text{km/h [N]}$.&lt;/li&gt;&#xA;&lt;li&gt;Current’s velocity: $\vec{v}_{\text{current}} = 5~\text{km/h [E]}$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use the Pythagorean theorem to find the magnitude of the resultant velocity:&lt;/p&gt;&#xA;$$&#xA;   |\vec{v}_{\text{resultant}}| = \sqrt{|\vec{v}_{\text{boat}}|^2 + |\vec{v}_{\text{current}}|^2}&#xA;   $$&lt;p&gt;Substitute the values:&lt;/p&gt;</description>
     </item>
     <item>
       <title>6.7 Practice</title>
