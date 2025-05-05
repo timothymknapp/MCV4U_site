@@ -246,11 +246,11 @@
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>7.1 Notes</title>
+      <title>7.1 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit7/section7-1/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit7/section7-1/notes/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we’ll work through example problems that reinforce the concepts of &lt;strong&gt;Cartesian vectors&lt;/strong&gt;. These examples cover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Writing vectors in component form.&lt;/li&gt;&#xA;&lt;li&gt;Adding and subtracting vectors.&lt;/li&gt;&#xA;&lt;li&gt;Scalar multiplication.&lt;/li&gt;&#xA;&lt;li&gt;Calculating magnitude and direction.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-writing-a-vector-in-component-form&#34;&gt;Example 1: Writing a Vector in Component Form&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has an $x$-component of $4$ and a $y$-component of $-3$. Write the vector in component form and draw it on the $xy$-plane.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br&gt;&#xA;The vector in component form is:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.2 Notes</title>
@@ -670,7 +670,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit6/section6-5/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit6/section6-5/practice/</guid>
-      <description>&lt;h1 id=&#34;65-practice-cross-product&#34;&gt;6.5 Practice: Cross Product&lt;/h1&gt;&#xA;&lt;p&gt;In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong&gt;cross product&lt;/strong&gt;. Each question uses the geometric definition of the cross product:&lt;/p&gt;&#xA;$$&#xA;|\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta&#xA;$$&lt;p&gt;and the &lt;strong&gt;right-hand rule&lt;/strong&gt; to determine direction. Solutions are hidden under &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; tags—expand them only after attempting the problem!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;problem-1-magnitude-of-the-cross-product&#34;&gt;Problem 1: Magnitude of the Cross Product&lt;/h2&gt;&#xA;&lt;h4 id=&#34;p1&#34;&gt;P1.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$|\vec{u}| = 3~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;$|\vec{v}| = 7~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;The angle between them is $\theta = 45^\circ$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong&gt;cross product&lt;/strong&gt;. Each question uses the geometric definition of the cross product:&lt;/p&gt;&#xA;$$&#xA;|\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta&#xA;$$&lt;h2 id=&#34;and-the-right-hand-rule-to-determine-direction&#34;&gt;and the &lt;strong&gt;right-hand rule&lt;/strong&gt; to determine direction.&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$|\vec{u}| = 3~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;$|\vec{v}| = 7~\text{units}$,&lt;/li&gt;&#xA;&lt;li&gt;The angle between them is $\theta = 45^\circ$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;Using the formula for the magnitude of the cross product:&lt;/p&gt;</description>
     </item>
     <item>
       <title>6.6 Practice</title>
@@ -691,7 +691,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit7/section7-1/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit7/section7-1/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has an $x$-component of $-2$ and a $y$-component of $5$. Write the vector in component form.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;The vector in component form is:&lt;/p&gt;&#xA;$$&#xA;\vec{v} = (-2, 5).&#xA;$$&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;:&lt;br&gt;&#xA;The vector in component form is $ \boxed{\vec{v} = (-2, 5)} $.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$\vec{u} = (4, -3)$,&lt;/li&gt;&#xA;&lt;li&gt;$\vec{v} = (-1, 6)$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the resultant vector $\vec{w} = \vec{u} + \vec{v}$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;To add two vectors, add their corresponding components:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.2 Practice</title>

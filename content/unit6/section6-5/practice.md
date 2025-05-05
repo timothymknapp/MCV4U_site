@@ -3,7 +3,6 @@ title = '6.5 Practice'
 weight = 2
 +++
 
-# 6.5 Practice: Cross Product
 
 In this section, you’ll find practice problems to reinforce your understanding of the **cross product**. Each question uses the geometric definition of the cross product:
 
@@ -11,13 +10,10 @@ $$
 |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta
 $$
 
-and the **right-hand rule** to determine direction. Solutions are hidden under `<details>` tags—expand them only after attempting the problem!
-
+and the **right-hand rule** to determine direction. 
 ---
 
-## Problem 1: Magnitude of the Cross Product
-
-#### P1.
+#### Ex1.
 Two vectors are given:
 - $|\vec{u}| = 3~\text{units}$,
 - $|\vec{v}| = 7~\text{units}$,
@@ -55,9 +51,8 @@ The magnitude of the cross product is $ \boxed{14.85~\text{units}^2} $.
 
 ---
 
-## Problem 2: Direction Using the Right-Hand Rule
 
-#### P2.
+#### Ex2.
 Two vectors $\vec{p}$ and $\vec{q}$ lie in the $xy$-plane:
 - $\vec{p}$ points along the positive $y$-axis.
 - $\vec{q}$ points along the negative $x$-axis.
@@ -74,18 +69,18 @@ Determine the direction of the cross product $\vec{p} \times \vec{q}$ using the 
    - Curl your fingers toward $\vec{q}$ (negative $x$-axis).
    - Your thumb points in the direction of $\vec{p} \times \vec{q}$.
 
-2. In this case, your thumb will point **into the page** (along the negative $z$-axis).
+2. In this case, your thumb will point **out of the page** (along the positive $z$-axis).
 
 **Answer**:  
-The direction of $\vec{p} \times \vec{q}$ is $ \boxed{\text{negative } z\text{-axis}} $.
+The direction of $\vec{p} \times \vec{q}$ is $ \boxed{\text{positive } z\text{-axis}} $.
 
 </details>
 
 ---
 
-## Problem 3: Area of a Parallelogram
 
-#### P3.
+
+#### Ex3.
 Two vectors are given:
 - $|\vec{a}| = 6~\text{units}$,
 - $|\vec{b}| = 9~\text{units}$,
@@ -123,9 +118,8 @@ The area of the parallelogram is $ \boxed{46.76~\text{units}^2} $.
 
 ---
 
-## Problem 4: Zero Cross Product
 
-#### P4.
+#### Ex4.
 Two vectors are given:
 - $|\vec{m}| = 12~\text{units}$,
 - $|\vec{n}| = 5~\text{units}$,
@@ -165,9 +159,7 @@ The cross product is $ \boxed{\vec{0}} $.
 
 ---
 
-## Problem 5: Torque Calculation
-
-#### P5.
+#### Ex5.
 A force of $|\vec{F}| = 8~\text{N}$ acts on an object at a distance of $|\vec{r}| = 3~\text{m}$ from a pivot point. The angle between the position vector $\vec{r}$ and the force vector $\vec{F}$ is $\theta = 30^\circ$.
 
 Calculate the torque ($\tau = \vec{r} \times \vec{F}$).
@@ -188,7 +180,7 @@ Substitute the given values:
 $$
 |\tau| = (3)(8) \sin(30^\circ)
 $$
-
+ 
 From trigonometry, $\sin(30^\circ) = 0.5$. Therefore:
 
 $$
