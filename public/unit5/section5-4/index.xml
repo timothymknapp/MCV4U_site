@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5.4: Economic Applications of Derivatives on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit5/section5-4/</link>
+    <link>https://mr.knapp.surge.sh/unit5/section5-4/</link>
     <description>Recent content in 5.4: Economic Applications of Derivatives on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit5/section5-4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mr.knapp.surge.sh/unit5/section5-4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5.4 Notes</title>
-      <link>http://localhost:1313/MrKnappsClass/unit5/section5-4/notes/</link>
+      <link>https://mr.knapp.surge.sh/unit5/section5-4/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-4/notes/</guid>
+      <guid>https://mr.knapp.surge.sh/unit5/section5-4/notes/</guid>
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
     </item>
     <item>
       <title>5.4 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit5/section5-4/practice/</link>
+      <link>https://mr.knapp.surge.sh/unit5/section5-4/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit5/section5-4/practice/</guid>
+      <guid>https://mr.knapp.surge.sh/unit5/section5-4/practice/</guid>
       <description>&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A company currently sells 500 units of a product at a price of $ \text{\$20}$ per unit. A survey shows that for every \$1 increase in price, the company will sell 20 fewer units. The cost function is:&lt;/p&gt;&#xA;$$&#xA;C(q) = 3000 + 5q,&#xA;$$&lt;p&gt;where $ q $ is the number of units sold. What price should the company charge to &lt;strong&gt;maximize profit&lt;/strong&gt;?&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Let $ x $ be the number of &lt;strong&gt;$1 price increases&lt;/strong&gt;.&lt;br&gt;&#xA;Then:&lt;/p&gt;</description>
     </item>
   </channel>

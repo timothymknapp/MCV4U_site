@@ -5,10 +5,16 @@
 
 # Base URL for Surge deployment (uncomment when deploying to Surge)
 # baseURL = "https://mr.knapp.surge.sh"
+# deploys with terminal commands: hugo and surge public mr.knapp.surge.sh
 
 # Base URL for GitHub Pages (uncomment when deploying to GitHub Pages)
 baseURL = "https://timothymknapp.github.io/MrKnappsClass/"
-# deploys with com
+# deploys with commit and sync to the above URL:
+
+# Base URL for Firebase Hoasting (uncomment when deploying to Firbase)
+# baseURL = https://mcv4u-firebase.web.app/
+# deploys locally with terminal command: firbase serve --only hosting
+# deploys with the terminal commands: hugo and  firebase deploy --only hosting
 
 title = "Calculus Hub"
 theme = "hugo-theme-learn"
