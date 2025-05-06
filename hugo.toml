@@ -8,6 +8,7 @@
 
 # Base URL for GitHub Pages (uncomment when deploying to GitHub Pages)
 baseURL = "https://timothymknapp.github.io/MrKnappsClass/"
+# deploys with com
 
 title = "Calculus Hub"
 theme = "hugo-theme-learn"

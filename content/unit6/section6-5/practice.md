@@ -4,13 +4,12 @@ weight = 2
 +++
 
 
-In this section, you’ll find practice problems to reinforce your understanding of the **cross product**. Each question uses the geometric definition of the cross product:
+In this section, you’ll find practice problems to reinforce your understanding of the **cross product**. Each question uses the geometric definition of the cross product: and the **right-hand rule** to determine direction. 
 
 $$
 |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta
 $$
 
-and the **right-hand rule** to determine direction. 
 ---
 
 #### Ex1.
