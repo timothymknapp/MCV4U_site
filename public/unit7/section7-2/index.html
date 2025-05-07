@@ -101,30 +101,30 @@
 </script>
 
     
-    <link href="/css/nucleus.css?1746533956" rel="stylesheet">
+    <link href="/css/nucleus.css?1746625279" rel="stylesheet">
     
-    <link href="/css/fontawesome-all.min.css?1746533956" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1746625279" rel="stylesheet">
     
-    <link href="/css/hybrid.css?1746533956" rel="stylesheet">
+    <link href="/css/hybrid.css?1746625279" rel="stylesheet">
     
-    <link href="/css/featherlight.min.css?1746533956" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1746625279" rel="stylesheet">
     
-    <link href="/css/perfect-scrollbar.min.css?1746533956" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1746625279" rel="stylesheet">
     
-    <link href="/css/auto-complete.css?1746533956" rel="stylesheet">
+    <link href="/css/auto-complete.css?1746625279" rel="stylesheet">
     
-    <link href="/css/atom-one-dark-reasonable.css?1746533956" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1746625279" rel="stylesheet">
     
-    <link href="/css/theme.css?1746533956" rel="stylesheet">
+    <link href="/css/theme.css?1746625279" rel="stylesheet">
     
-    <link href="/css/tabs.css?1746533956" rel="stylesheet">
+    <link href="/css/tabs.css?1746625279" rel="stylesheet">
     
-    <link href="/css/hugo-theme.css?1746533956" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1746625279" rel="stylesheet">
     
     
-    <link href="/theme-red.css?1746533956" rel="stylesheet">
+    <link href="/theme-red.css?1746625279" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1746533956"></script>
+    <script src="/js/jquery-3.3.1.min.js?1746625279"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -156,14 +156,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1746533956"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1746533956"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1746625279"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1746625279"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/mr.knapp.surge.sh\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1746533956"></script>
+<script type="text/javascript" src="/js/search.js?1746625279"></script>
 
     
   </div>
@@ -3816,9 +3816,9 @@
  
   
     
-      <li data-nav-id="/unit7/section7-2/notes/" title="7.2 Notes" class="dd-item ">
+      <li data-nav-id="/unit7/section7-2/notes/" title="7.2 Examples" class="dd-item ">
         <a href="/unit7/section7-2/notes/">
-        7.2 Notes
+        7.2 Examples
         
         </a>
     </li>
@@ -3894,9 +3894,9 @@
  
   
     
-      <li data-nav-id="/unit7/section7-3/notes/" title="7.3 Notes" class="dd-item ">
+      <li data-nav-id="/unit7/section7-3/notes/" title="7.3 Examples" class="dd-item ">
         <a href="/unit7/section7-3/notes/">
-        7.3 Notes
+        7.3 Examples
         
         </a>
     </li>
@@ -4890,7 +4890,23 @@
                   
                       <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#learning-goals-and-success-criteria">Learning Goals and Success Criteria</a>
+      <ul>
+        <li><a href="#learning-goal">Learning Goal:</a></li>
+        <li><a href="#success-criteria">Success Criteria:</a></li>
+      </ul>
+    </li>
+    <li><a href="#key-idea-the-cartesian-dot-product">Key Idea: The Cartesian Dot Product</a>
+      <ul>
+        <li><a href="#why-is-the-dot-product-important">Why Is the Dot Product Important?</a></li>
+        <li><a href="#algebraic-vs-geometric-interpretation">Algebraic vs. Geometric Interpretation</a></li>
+        <li><a href="#applications-of-the-dot-product">Applications of the Dot Product</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -4918,7 +4934,79 @@
         
         <div class="container">
             
-                <p>Welcome to <strong>Calculus Hub</strong>, your one-stop resource for mastering Calculus!</p>
+                <p>Welcome to <strong>Section 7.2</strong>, where we explore the <strong>Cartesian dot product</strong>—a fundamental operation in vector mathematics. The dot product is a powerful tool that allows us to calculate the angle between two vectors, project one vector onto another, and determine whether two vectors are orthogonal (perpendicular). It also has numerous applications in physics, engineering, and computer science.</p>
+<hr>
+<h2 id="learning-goals-and-success-criteria">Learning Goals and Success Criteria</h2>
+<h3 id="learning-goal">Learning Goal:</h3>
+<p>Understand the definition and properties of the Cartesian dot product. Be able to compute the dot product algebraically and interpret its geometric meaning.</p>
+<h3 id="success-criteria">Success Criteria:</h3>
+<ul>
+<li>Compute the dot product of two vectors in Cartesian form: $\vec{u} \cdot \vec{v} = u_x v_x + u_y v_y$.</li>
+<li>Use the dot product to find the angle between two vectors.</li>
+<li>Determine whether two vectors are orthogonal using the dot product.</li>
+<li>Apply the dot product to solve real-world problems, such as work calculations and projections.</li>
+</ul>
+<hr>
+<h2 id="key-idea-the-cartesian-dot-product">Key Idea: The Cartesian Dot Product</h2>
+$$
+\vec{u} \cdot \vec{v} = u_x v_x + u_y v_y.
+$$$$
+\vec{u} \cdot \vec{v} = |\vec{u}| |\vec{v}| \cos\theta,
+$$<p>
+where:</p>
+<ul>
+<li>$|\vec{u}|$ and $|\vec{v}|$ are the magnitudes of the vectors,</li>
+<li>$\theta$ is the angle between the two vectors.</li>
+</ul>
+<p>These two definitions are equivalent and provide complementary perspectives on the dot product.</p>
+<hr>
+<h3 id="why-is-the-dot-product-important">Why Is the Dot Product Important?</h3>
+<p>The dot product is a versatile tool with many applications:</p>
+<ol>
+<li>
+$$
+   \cos\theta = \frac{\vec{u} \cdot \vec{v}}{|\vec{u}| |\vec{v}|}.
+   $$</li>
+<li>
+$$
+   \vec{u} \cdot \vec{v} = 0.
+   $$</li>
+<li>
+$$
+   W = \vec{F} \cdot \vec{d},
+   $$<p>
+where $\vec{F}$ is the force vector and $\vec{d}$ is the displacement vector.</p>
+</li>
+<li>
+<p><strong>Projections</strong>:<br>
+The dot product is used to project one vector onto another, which is critical in fields like computer graphics and physics. We will cover projections specifically in section 7.6.</p>
+</li>
+</ol>
+<hr>
+<h3 id="algebraic-vs-geometric-interpretation">Algebraic vs. Geometric Interpretation</h3>
+<p>The dot product bridges the gap between <strong>algebraic</strong> and <strong>geometric</strong> representations of vectors:</p>
+<ul>
+<li><strong>Algebraic</strong>: The dot product is computed directly from the components of the vectors:
+$$
+  \vec{u} \cdot \vec{v} = u_x v_x + u_y v_y.
+  $$</li>
+<li><strong>Geometric</strong>: The dot product relates to the magnitudes of the vectors and the cosine of the angle between them:
+$$
+  \vec{u} \cdot \vec{v} = |\vec{u}| |\vec{v}| \cos\theta.
+  $$</li>
+</ul>
+<p>This dual perspective makes the dot product an essential tool for solving problems in both abstract mathematics and applied sciences.</p>
+<hr>
+<h3 id="applications-of-the-dot-product">Applications of the Dot Product</h3>
+<p>The dot product has wide-ranging applications:</p>
+<ul>
+<li><strong>Physics</strong>: Calculating work, resolving forces, and analyzing energy transfer.</li>
+<li><strong>Engineering</strong>: Determining stress and strain in structures.</li>
+<li><strong>Computer Graphics</strong>: Simulating lighting and shading effects.</li>
+<li><strong>Machine Learning</strong>: Measuring similarity between data points using cosine similarity.</li>
+</ul>
+<p>By mastering the dot product, you’ll gain a deeper understanding of how vectors interact and how they can be used to model real-world phenomena.</p>
+<hr>
 
             
 
@@ -7814,7 +7902,7 @@
 			<a class="nav nav-prev" href="/unit7/section7-1/practice/" title="7.1 Practice"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/unit7/section7-2/notes/" title="7.2 Notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/unit7/section7-2/notes/" title="7.2 Examples" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -7824,19 +7912,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1746533956"></script>
-    <script src="/js/perfect-scrollbar.min.js?1746533956"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1746533956"></script>
-    <script src="/js/jquery.sticky.js?1746533956"></script>
-    <script src="/js/featherlight.min.js?1746533956"></script>
-    <script src="/js/highlight.pack.js?1746533956"></script>
+    <script src="/js/clipboard.min.js?1746625279"></script>
+    <script src="/js/perfect-scrollbar.min.js?1746625279"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1746625279"></script>
+    <script src="/js/jquery.sticky.js?1746625279"></script>
+    <script src="/js/featherlight.min.js?1746625279"></script>
+    <script src="/js/highlight.pack.js?1746625279"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1746533956"></script>
-    <script src="/js/learn.js?1746533956"></script>
-    <script src="/js/hugo-learn.js?1746533956"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1746625279"></script>
+    <script src="/js/learn.js?1746625279"></script>
+    <script src="/js/hugo-learn.js?1746625279"></script>
     
         
-            <script src="/mermaid/mermaid.js?1746533956"></script>
+            <script src="/mermaid/mermaid.js?1746625279"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
