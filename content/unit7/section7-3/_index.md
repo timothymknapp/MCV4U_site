@@ -1,5 +1,5 @@
 +++
-title = 'Section 7.3'
+title = '7.3 3D Vectors'
 weight = 3
 +++
 
@@ -25,9 +25,11 @@ Understand the concept of 3D vectors in Cartesian form and their applications. B
 ## Key Idea: 3D Vectors in Cartesian Form
 
 A **3D vector** is represented in Cartesian form as:
+
 $$
 \vec{v} = (v_x, v_y, v_z),
 $$
+
 where:
 - $v_x$ is the $x$-component,
 - $v_y$ is the $y$-component,
@@ -41,39 +43,47 @@ This representation allows us to describe vectors in three-dimensional space alg
 
 #### 1. Vector Addition and Subtraction
 To add or subtract two 3D vectors, add or subtract their corresponding components:
+
 $$
 \vec{u} + \vec{v} = (u_x + v_x, u_y + v_y, u_z + v_z),
 $$
+
 $$
 \vec{u} - \vec{v} = (u_x - v_x, u_y - v_y, u_z - v_z).
 $$
 
 #### 2. Scalar Multiplication
 To multiply a vector by a scalar $k$, multiply each component by $k$:
+
 $$
 k\vec{v} = (k v_x, k v_y, k v_z).
 $$
 
 #### 3. Magnitude of a Vector
 The magnitude of a 3D vector is the length of the vector and is calculated using the formula:
+
 $$
 |\vec{v}| = \sqrt{v_x^2 + v_y^2 + v_z^2}.
 $$
 
 #### 4. Unit Vector
 The unit vector of a vector $\vec{v}$ points in the same direction as $\vec{v}$ but has a magnitude of 1. It is calculated as:
+
 $$
 \hat{v} = \frac{\vec{v}}{|\vec{v}|},
 $$
+
 where $|\vec{v}|$ is the magnitude of $\vec{v}$.
 
 #### 5. Dot Product
 The dot product of two 3D vectors $\vec{u} = (u_x, u_y, u_z)$ and $\vec{v} = (v_x, v_y, v_z)$ is defined as:
+
 $$
 \vec{u} \cdot \vec{v} = u_x v_x + u_y v_y + u_z v_z.
 $$
 
 The dot product can also be used to find the angle $\theta$ between two vectors:
+
 $$
 \cos\theta = \frac{\vec{u} \cdot \vec{v}}{|\vec{u}| |\vec{v}|}.
 $$

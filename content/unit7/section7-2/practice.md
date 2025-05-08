@@ -20,11 +20,13 @@ Find the dot product $\vec{u} \cdot \vec{v}$.
   </summary>
 
 The formula for the dot product is:
+
 $$
 \vec{u} \cdot \vec{v} = u_x v_x + u_y v_y.
 $$
 
 Substitute the components:
+
 $$
 \vec{u} \cdot \vec{v} = (2)(3) + (-5)(4) = 6 - 20 = -14.
 $$
@@ -49,29 +51,35 @@ Find the angle $\theta$ between the vectors.
   </summary>
 
 The formula for the angle between two vectors is:
+
 $$
 \cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}.
 $$
 
 1. Compute the dot product:
+
    $$
    \vec{a} \cdot \vec{b} = (1)(-2) + (3)(4) = -2 + 12 = 10.
    $$
 
 2. Compute the magnitudes:
+
    $$
    |\vec{a}| = \sqrt{(1)^2 + (3)^2} = \sqrt{1 + 9} = \sqrt{10},
    $$
+
    $$
    |\vec{b}| = \sqrt{(-2)^2 + (4)^2} = \sqrt{4 + 16} = \sqrt{20}.
    $$
 
 3. Substitute into the formula:
+
    $$
    \cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|} = \frac{10}{\sqrt{10} \cdot \sqrt{20}} = \frac{10}{\sqrt{200}} = \frac{10}{10\sqrt{2}} = \frac{1}{\sqrt{2}}.
    $$
 
 4. Solve for $\theta$:
+
    $$
    \theta = \cos^{-1}\left(\frac{1}{\sqrt{2}}\right) = 45^\circ.
    $$
@@ -96,11 +104,13 @@ Determine whether the vectors are orthogonal.
   </summary>
 
 Two vectors are orthogonal if their dot product is zero:
+
 $$
 \vec{p} \cdot \vec{q} = p_x q_x + p_y q_y.
 $$
 
 Substitute the components:
+
 $$
 \vec{p} \cdot \vec{q} = (4)(6) + (-3)(8) = 24 - 24 = 0.
 $$
@@ -123,11 +133,13 @@ A force $\vec{F} = (6, -2)$ acts on an object, causing a displacement $\vec{d} =
   </summary>
 
 The formula for work is:
+
 $$
 W = \vec{F} \cdot \vec{d}.
 $$
 
 Compute the dot product:
+
 $$
 W = (6)(3) + (-2)(1) = 18 - 2 = 16.
 $$
@@ -148,11 +160,13 @@ A light source emits a vector of intensity $\vec{I} = (5, 3)$, and the surface n
   </summary>
 
 The effective intensity is proportional to the dot product:
+
 $$
 \vec{I} \cdot \vec{n} = I_x n_x + I_y n_y.
 $$
 
 Substitute the components:
+
 $$
 \vec{I} \cdot \vec{n} = (5)(2) + (3)(-4) = 10 - 12 = -2.
 $$
@@ -167,4 +181,4 @@ The effective intensity is $ \boxed{-2} $.
 ---
 
 
-<iframe src="https://script.google.com/macros/s/AKfycbw3qgS1OpdVyZpbd-pwFhVh8KLBlIIFC2M3HqmXaoOHzkfEtKbOhYo0zYsoRzaf-cWM2w/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://script.google.com/macros/s/AKfycbw3qgS1OpdVyZpbd-pwFhVh8KLBlIIFC2M3HqmXaoOHzkfEtKbOhYo0zYsoRzaf-cWM2w/exec" width="80%" height="1500px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

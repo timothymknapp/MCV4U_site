@@ -23,11 +23,13 @@ Find the dot product $\vec{u} \cdot \vec{v}$.
 
 **Solution**:  
 The formula for the dot product is:
+
 $$
 \vec{u} \cdot \vec{v} = u_x v_x + u_y v_y.
 $$
 
 Substitute the components:
+
 $$
 \vec{u} \cdot \vec{v} = (3)(4) + (-2)(5) = 12 - 10 = 2.
 $$
@@ -48,29 +50,35 @@ Find the angle $\theta$ between the vectors.
 
 **Solution**:  
 The formula for the angle between two vectors is:
+
 $$
 \cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}.
 $$
 
 1. Compute the dot product:
+
    $$
    \vec{a} \cdot \vec{b} = (1)(-3) + (2)(4) = -3 + 8 = 5.
    $$
 
 2. Compute the magnitudes:
+
    $$
    |\vec{a}| = \sqrt{(1)^2 + (2)^2} = \sqrt{1 + 4} = \sqrt{5},
    $$
+
    $$
    |\vec{b}| = \sqrt{(-3)^2 + (4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5.
    $$
 
 3. Substitute into the formula:
+
    $$
    \cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|} = \frac{5}{\sqrt{5} \cdot 5} = \frac{5}{5\sqrt{5}} = \frac{1}{\sqrt{5}}.
    $$
 
 4. Solve for $\theta$:
+
    $$
    \theta = \cos^{-1}\left(\frac{1}{\sqrt{5}}\right) \approx 63.4^\circ.
    $$
@@ -91,11 +99,13 @@ Determine whether the vectors are orthogonal.
 
 **Solution**:  
 Two vectors are orthogonal if their dot product is zero:
+
 $$
 \vec{p} \cdot \vec{q} = p_x q_x + p_y q_y.
 $$
 
 Substitute the components:
+
 $$
 \vec{p} \cdot \vec{q} = (2)(6) + (-3)(4) = 12 - 12 = 0.
 $$
@@ -114,11 +124,13 @@ A force $\vec{F} = (5, 3)$ acts on an object, causing a displacement $\vec{d} = 
 
 **Solution**:  
 The formula for work is:
+
 $$
 W = \vec{F} \cdot \vec{d}.
 $$
 
 Compute the dot product:
+
 $$
 W = (5)(2) + (3)(-4) = 10 - 12 = -2.
 $$

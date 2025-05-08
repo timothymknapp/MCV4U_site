@@ -119,11 +119,13 @@ A vector $\vec{p} = (3, 4)$ is given. Find its magnitude and direction.
 
 1. **Magnitude**:  
    Use the Pythagorean theorem:
+   
    $$
    |\vec{p}| = \sqrt{p_x^2 + p_y^2}.
    $$
 
    Substitute the values:
+   
    $$
    |\vec{p}| = \sqrt{(3)^2 + (4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5.
    $$
