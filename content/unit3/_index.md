@@ -1,9 +1,9 @@
 +++
-title = "Unit 3: Trancendental Derivatives"
+title = "Unit 3: Trancendentals"
 weight = 3
 +++
 
-## Unit: Derivatives of Transcendental Functions
+## Unit 3: Derivatives of Transcendental Functions
 ### Overview
 In this unit, students will extend their understanding of derivatives to transcendental functions, including trigonometric, exponential, and logarithmic functions. These functions arise naturally in many real-world applications, such as modeling periodic phenomena, growth and decay processes, and logarithmic scales. Building upon the derivative rules introduced in Unit 2, students will learn how to compute derivatives of these more complex functions and apply them to solve practical problems.
 

@@ -281,11 +281,11 @@
       <description>&lt;p&gt;In this section, we’ll work through examples that demonstrate how the dot product and cross product are applied in real-world scenarios. Each example focuses on a specific application, such as work, torque, lighting, and more.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-computing-work-dot-product&#34;&gt;Example 1: Computing Work (Dot Product)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A force $\vec{F} = \langle 10, 5, 0 \rangle$ moves an object along a displacement $\vec{d} = \langle 4, 3, 0 \rangle$. Find the work done.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br&gt;&#xA;The formula for work is:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>7.6 Notes</title>
+      <title>7.6 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit7/section7-6/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit7/section7-6/notes/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we’ll work through examples that demonstrate how to compute scalar and vector projections, decompose vectors into components, and apply these concepts to real-world scenarios. Both 2D and 3D examples are included.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-scalar-and-vector-projection-2d&#34;&gt;Example 1: Scalar and Vector Projection (2D)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Let $\vec{a} = \langle 4, 3 \rangle$ and $\vec{b} = \langle 1, 0 \rangle$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Find the scalar projection of $\vec{a}$ onto $\vec{b}$.&lt;/li&gt;&#xA;&lt;li&gt;Find the vector projection of $\vec{a}$ onto $\vec{b}$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.7 Notes</title>
@@ -726,7 +726,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit7/section7-6/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit7/section7-6/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, you’ll find practice problems to reinforce your understanding of scalar and vector projections, decomposing vectors, and their applications. Solutions are hidden expand them only after attempting the problem!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Compute the scalar and vector projections of $\vec{a} = \langle 2, 5 \rangle$ onto $\vec{b} = \langle 4, 1 \rangle$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scalar Projection&lt;/strong&gt;:&lt;/p&gt;&#xA;\[&#xA;   \text{comp}_{\vec{b}} \vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}.&#xA;   \]&lt;p&gt;Compute the dot product:&lt;/p&gt;&#xA;\[&#xA;   \vec{a} \cdot \vec{b} = (2)(4) + (5)(1) = 8 + 5 = 13.&#xA;   \]&lt;p&gt;Compute $|\vec{b}|$:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.7 Practice</title>
