@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6.3 Scalar Multiplication on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit6/section6-3/</link>
+    <link>https://mr.knapp.surge.sh/unit6/section6-3/</link>
     <description>Recent content in 6.3 Scalar Multiplication on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit6/section6-3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mr.knapp.surge.sh/unit6/section6-3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>6.3 Examples</title>
-      <link>http://localhost:1313/MrKnappsClass/unit6/section6-3/notes/</link>
+      <link>https://mr.knapp.surge.sh/unit6/section6-3/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit6/section6-3/notes/</guid>
+      <guid>https://mr.knapp.surge.sh/unit6/section6-3/notes/</guid>
       <description>&lt;p&gt;In this section, we’ll work through additional example problems that reinforce the concepts of scalar multiplication. These examples use different numbers and contexts to help you practice scaling vectors geometrically.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-scaling-a-vector-by-a-fraction&#34;&gt;Example 1: Scaling a Vector by a Fraction&lt;/h2&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has a magnitude of 12 units and points due north. Find the new vector if it is scaled by a factor of $ \frac{1}{3} $.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br&gt;&#xA;When a vector is multiplied by a positive scalar ($k &gt; 0$), its magnitude is scaled by $|k|$, and its direction remains unchanged.&lt;/p&gt;</description>
     </item>
     <item>
       <title>6.3 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit6/section6-3/practice/</link>
+      <link>https://mr.knapp.surge.sh/unit6/section6-3/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit6/section6-3/practice/</guid>
+      <guid>https://mr.knapp.surge.sh/unit6/section6-3/practice/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has a magnitude of 5 units and points due east. Find the new vector if it is scaled by a factor of $3$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;When a vector is multiplied by a positive scalar ($k &gt; 0$), its magnitude is scaled by $|k|$, and its direction remains unchanged.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Magnitude of the new vector:&lt;/p&gt;&#xA;$$&#xA;     |\vec{v}_{\text{new}}| = |k| \cdot |\vec{v}| = 3 \cdot 5 = 15~\text{units}.&#xA;     $$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The direction of the vector remains due east.&lt;/p&gt;</description>
     </item>
   </channel>

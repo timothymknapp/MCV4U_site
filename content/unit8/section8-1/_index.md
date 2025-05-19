@@ -1,53 +1,64 @@
 +++
-title = 'Section 8.1'
+title = '8.1: Lines in 2D and 3D'
 weight = 1
 +++
 
-# Lesson: Average Rate of Change
+## Learning Goals:
+- Understand how to represent lines in 2D and 3D using vector, scalar, and parametric equations.
+- Use direction vectors to describe lines.
+- Apply these concepts to solve geometric problems.
 
-The **Average Rate of Change** of a function measures how the function's output value changes, on average, between two input values. This concept is analogous to finding the slope of the straight line (called the secant line) that connects two points on the function's graph.
+## Key Concepts:
 
-## Formula
+### Scalar Equation of a Line (2D):
+The scalar equation of a line in 2D is:
+$$
+ax + by + c = 0
+$$
+Where:
+- $(a, b)$ is the normal vector to the line.
+- $(x, y)$ are coordinates of any point on the line.
+- $c$ is a constant.
 
-The formula for the average rate of change of a function \( f(x) \) between two points \( x = a \) and \( x = b \) is:
+### Vector Equation of a Line (2D):
+The vector equation of a line in 2D is:
 
-\[
-\text{Average Rate of Change} = \frac{f(b) - f(a)}{b - a}
-\]
+$$
+\vec{r}(t) = \vec{r}_0 + t\vec{m}
+$$
 
-### Explanation of the Formula
-- \( f(a) \): The value of the function at \( x = a \).
-- \( f(b) \): The value of the function at \( x = b \).
-- \( b - a \): The change in the input values.
+Where:
+- $\vec{r}_0 = \langle x_0, y_0 \rangle$ is a position vector to a point on the line.
+- $\vec{m} = \langle m_x, m_y \rangle$ is the direction vector parallel to the line.
+- $t$ is a scalar parameter.
 
-This formula calculates the ratio of the change in the output (\( f(b) - f(a) \)) to the change in the input (\( b - a \)).
+### Parametric Equations of a Line (2D):
+From the vector equation, we derive parametric equations:
 
-## Example
+$$
+x = x_0 + t \cdot m_x, \quad y = y_0 + t \cdot m_y
+$$
 
-Suppose \( f(x) = x^2 \). Find the average rate of change of \( f(x) \) from \( x = 1 \) to \( x = 3 \).
+### Lines in 3D:
+In 3D, the scalar equation does not apply directly. Instead, we use:
+- **Vector Equation**:
 
-### Solution
-Using the formula:
+  $$
+  \vec{r}(t) = \vec{r}_0 + t\vec{m}
+  $$
 
-\[
-\text{Average Rate of Change} = \frac{f(3) - f(1)}{3 - 1}
-\]
+  Where:
+  - $\vec{r}_0 = \langle x_0, y_0, z_0 \rangle$ is a position vector to a point on the line.
+  - $\vec{m} = \langle m_x, m_y, m_z \rangle$ is the direction vector parallel to the line.
+  - $t$ is a scalar parameter.
 
-1. Calculate \( f(3) \) and \( f(1) \):
-   - \( f(3) = 3^2 = 9 \)
-   - \( f(1) = 1^2 = 1 \)
+- **Parametric Equations**:
 
-2. Substitute into the formula:
-   \[
-   \text{Average Rate of Change} = \frac{9 - 1}{3 - 1} = \frac{8}{2} = 4
-   \]
+  $$
+  x = x_0 + t \cdot m_x, \quad y = y_0 + t \cdot m_y, \quad z = z_0 + t \cdot m_z
+  $$
 
-Thus, the average rate of change of \( f(x) = x^2 \) from \( x = 1 \) to \( x = 3 \) is 4.
-
-## Visual Interpretation
-
-On the graph of \( f(x) = x^2 \), the average rate of change represents the slope of the straight line connecting the points \( (1, 1) \) and \( (3, 9) \).
-
----
-
-Feel free to explore this concept further by trying different functions and intervals!
+## Summary:
+- In 2D, lines can be represented using scalar, vector, or parametric equations.
+- In 3D, lines are represented using vector or parametric equations.
+- Direction vectors play a crucial role in describing lines in both 2D and 3D.
