@@ -3,7 +3,6 @@ title = '8.2 Practice'
 weight = 2
 +++
 
-# Section 8.2: Practice Problems
 
 Solve the following problems to reinforce your understanding of intersections of lines in 2D and 3D. Click on the **"Solution"** dropdown to reveal the hidden solution.
 

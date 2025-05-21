@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7.1 Intro to Cartesian Vectors on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit7/section7-1/</link>
+    <link>https://mr.knapp.surge.sh/unit7/section7-1/</link>
     <description>Recent content in 7.1 Intro to Cartesian Vectors on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit7/section7-1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mr.knapp.surge.sh/unit7/section7-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7.1 Examples</title>
-      <link>http://localhost:1313/MrKnappsClass/unit7/section7-1/notes/</link>
+      <link>https://mr.knapp.surge.sh/unit7/section7-1/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit7/section7-1/notes/</guid>
+      <guid>https://mr.knapp.surge.sh/unit7/section7-1/notes/</guid>
       <description>&lt;p&gt;In this section, we’ll work through example problems that reinforce the concepts of &lt;strong&gt;Cartesian vectors&lt;/strong&gt;. These examples cover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Writing vectors in component form.&lt;/li&gt;&#xA;&lt;li&gt;Adding and subtracting vectors.&lt;/li&gt;&#xA;&lt;li&gt;Scalar multiplication.&lt;/li&gt;&#xA;&lt;li&gt;Calculating magnitude and direction.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-writing-a-vector-in-component-form&#34;&gt;Example 1: Writing a Vector in Component Form&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has an $x$-component of $4$ and a $y$-component of $-3$. Write the vector in component form and draw it on the $xy$-plane.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br&gt;&#xA;The vector in component form is:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.1 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit7/section7-1/practice/</link>
+      <link>https://mr.knapp.surge.sh/unit7/section7-1/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit7/section7-1/practice/</guid>
+      <guid>https://mr.knapp.surge.sh/unit7/section7-1/practice/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A vector $\vec{v}$ has an $x$-component of $-2$ and a $y$-component of $5$. Write the vector in component form.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;The vector in component form is:&lt;/p&gt;&#xA;$$&#xA;\vec{v} = (-2, 5).&#xA;$$&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;:&lt;br&gt;&#xA;The vector in component form is $ \boxed{\vec{v} = (-2, 5)} $.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;Two vectors are given:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$\vec{u} = (4, -3)$,&lt;/li&gt;&#xA;&lt;li&gt;$\vec{v} = (-1, 6)$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Find the resultant vector $\vec{w} = \vec{u} + \vec{v}$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;To add two vectors, add their corresponding components:&lt;/p&gt;</description>
     </item>
   </channel>
