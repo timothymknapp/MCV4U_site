@@ -16,7 +16,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 Because the lines are not parallel; Set the parametric equations equal:
 
@@ -99,7 +99,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 Because the lines are not parallel; Set the parametric equations equal:
 
@@ -184,7 +184,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 The formula for the shortest distance between skew lines is:
 
@@ -267,7 +267,7 @@ $$
 Show that the lines $\vec{r}_1(t) = \langle 2, 3 \rangle + t\langle 1, -2 \rangle$ and $\vec{r}_2(s) = \langle 4, -1 \rangle + s\langle 2, -4 \rangle$ are coincident.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - Direction vectors:
 
@@ -343,7 +343,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 Set the parametric equations equal:
 
@@ -433,7 +433,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 Set the parametric equations equal:
 
@@ -524,7 +524,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - Direction vectors:
 
@@ -567,7 +567,7 @@ $$
 $$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - Direction vectors:
 
