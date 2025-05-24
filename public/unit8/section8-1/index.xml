@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.1: Lines in 2D and 3D on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit8/section8-1/</link>
+    <link>https://mr.knapp.surge.sh/unit8/section8-1/</link>
     <description>Recent content in 8.1: Lines in 2D and 3D on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit8/section8-1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mr.knapp.surge.sh/unit8/section8-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>8.1: Examples</title>
-      <link>http://localhost:1313/MrKnappsClass/unit8/section8-1/notes/</link>
+      <link>https://mr.knapp.surge.sh/unit8/section8-1/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-1/notes/</guid>
+      <guid>https://mr.knapp.surge.sh/unit8/section8-1/notes/</guid>
       <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to apply the concepts of lines in 2D and 3D.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-vector-and-parametric-equations-of-a-line-2d&#34;&gt;Example 1: Vector and Parametric Equations of a Line (2D)&lt;/h2&gt;&#xA;&lt;p&gt;Find the vector and parametric equations of the line passing through the point $(-3, 4)$ with direction vector $\vec{m} = \langle 2, -1 \rangle$.&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vector Equation&lt;/strong&gt;:&#xA;The general form of the vector equation of a line is:&lt;/p&gt;&#xA;$$&#xA;  \vec{r}(t) = \vec{r}_0 + t\vec{m}&#xA;  $$&lt;p&gt;Substituting $\vec{r}_0 = \langle -3, 4 \rangle$ and $\vec{m} = \langle 2, -1 \rangle$, we get:&lt;/p&gt;</description>
     </item>
     <item>
       <title>8.1 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit8/section8-1/practice/</link>
+      <link>https://mr.knapp.surge.sh/unit8/section8-1/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-1/practice/</guid>
+      <guid>https://mr.knapp.surge.sh/unit8/section8-1/practice/</guid>
       <description>&lt;p&gt;Solve the following problems to reinforce your understanding of lines in 2D and 3D. Click on the &lt;strong&gt;&amp;ldquo;Solution&amp;rdquo;&lt;/strong&gt; dropdown to reveal the hidden solution.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;problem-1-vector-and-parametric-equations-of-a-line-2d&#34;&gt;Problem 1: Vector and Parametric Equations of a Line (2D)&lt;/h2&gt;&#xA;&lt;p&gt;Find the vector and parametric equations of the line passing through the point $(-2, 5)$ with direction vector $\vec{m} = \langle 4, -3 \rangle$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;&lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vector Equation&lt;/strong&gt;:&#xA;The general form of the vector equation is:&lt;/p&gt;&#xA;$$&#xA;  \vec{r}(t) = \vec{r}_0 + t\vec{m}&#xA;  $$&lt;p&gt;Substituting $\vec{r}_0 = \langle -2, 5 \rangle$ and $\vec{m} = \langle 4, -3 \rangle$, we get:&lt;/p&gt;</description>
     </item>
   </channel>

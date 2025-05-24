@@ -3,8 +3,6 @@ title = "Unit 8: Lines and Planes"
 weight = 8
 +++
 
-# Introduction to Unit 8: Lines and Planes
-
 Lines and planes are fundamental geometric objects that form the backbone of many real-world applications, from computer graphics and engineering to physics and architecture. In this unit, we’ll explore how to describe lines and planes mathematically, analyze their properties, and study their intersections in both two-dimensional (2D) and three-dimensional (3D) spaces.
 
 ## Why Study Lines and Planes?

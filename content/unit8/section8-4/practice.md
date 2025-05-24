@@ -11,7 +11,7 @@ Solve the following problems to reinforce your understanding of creating equatio
 Find the vector and parametric equations of the line passing through the points $P(3, -1, 2)$ and $Q(5, 2, -4)$.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - Find the direction vector $\vec{m}$:
 
@@ -49,7 +49,7 @@ $$
 Find the scalar and vector equations of the plane containing the points $A(0, 1, 2)$, $B(2, 3, 4)$, and $C(-1, -2, 0)$.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - Find two direction vectors on the plane:
 
@@ -119,7 +119,7 @@ $$
 Find the equation of a line that passes through the point $R(1, 0, -1)$ and is parallel to the plane $x + 2y - 3z + 5 = 0$.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - The normal vector of the plane is $\vec{n} = \langle 1, 2, -3 \rangle$.
 - A line parallel to the plane must have a direction vector $\vec{m}$ that is perpendicular to $\vec{n}$. Choose $\vec{m} = \langle 2, -1, 0 \rangle$ (any vector satisfying $\vec{m} \cdot \vec{n} = 0$).
@@ -154,7 +154,7 @@ $$
 Find the equation of a plane that contains the point $S(3, -2, 1)$ and is perpendicular to the line $\vec{r}(t) = \langle 0, 1, 2 \rangle + t\langle 1, -1, 2 \rangle$.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - The direction vector of the line is $\vec{m} = \langle 1, -1, 2 \rangle$, which serves as the normal vector $\vec{n}$ of the plane.
 - Use $\vec{n} = \langle 1, -1, 2 \rangle$ and point $S(3, -2, 1)$ to write the scalar equation:
@@ -183,7 +183,7 @@ $$
 Find the intercepts of the plane $4x - y + 2z - 8 = 0$ with the $x$-, $y$-, and $z$-axes.
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong id="solution-title">Solution</strong></summary>
 
 - To find the $x$-intercept, set $y = 0$ and $z = 0$:
 
