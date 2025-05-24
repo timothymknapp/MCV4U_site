@@ -316,11 +316,11 @@
       <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to represent planes in 3D using scalar, vector, and parametric equations.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-scalar-equation-of-a-plane&#34;&gt;Example 1: Scalar Equation of a Plane&lt;/h2&gt;&#xA;&lt;p&gt;Find the scalar equation of the plane that passes through the point $(3, -2, 1)$ and has a normal vector $\vec{n} = \langle 1, -2, 3 \rangle$.&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;p&gt;The scalar equation of a plane is:&lt;/p&gt;&#xA;$$&#xA;a(x - x_0) + b(y - y_0) + c(z - z_0) = 0,&#xA;$$&lt;p&gt;where $\vec{n} = \langle a, b, c \rangle$ and $(x_0, y_0, z_0)$ is a point on the plane.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>8.4 Notes</title>
+      <title>8.4 Examples</title>
       <link>http://localhost:1313/MrKnappsClass/unit8/section8-4/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit8/section8-4/notes/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+      <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to create equations of lines and planes in 3D.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-creating-a-line-equation&#34;&gt;Example 1: Creating a Line Equation&lt;/h2&gt;&#xA;&lt;p&gt;Find the vector and parametric equations of the line passing through the points $A(2, -3, 1)$ and $B(-1, 0, 4)$.&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Find the direction vector $\vec{m}$:&lt;/p&gt;&#xA;$$&#xA;  \vec{m} = \langle -1 - 2, 0 - (-3), 4 - 1 \rangle = \langle -3, 3, 3 \rangle.&#xA;  $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use point $A(2, -3, 1)$ and $\vec{m} = \langle -3, 3, 3 \rangle$ to write the vector equation:&lt;/p&gt;</description>
     </item>
     <item>
       <title>8.5 Notes</title>
@@ -761,7 +761,7 @@
       <link>http://localhost:1313/MrKnappsClass/unit8/section8-4/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MrKnappsClass/unit8/section8-4/practice/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://script.google.com/macros/s/AKfycbxm4gzccLCeA8yb8OwRwZPCO2WI77TDB9Wf9JZhBC4IzyxynZA5PoRi2Lv6EkXcV8Bq2Q/exec&#34; width=&#34;80%&#34; height=&#34;1200px&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;</description>
+      <description>&lt;p&gt;Solve the following problems to reinforce your understanding of creating equations of lines and planes in 3D. Click on the &lt;strong&gt;&amp;ldquo;Solution&amp;rdquo;&lt;/strong&gt; dropdown to reveal the hidden solution.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ex1&#34;&gt;Ex1&lt;/h2&gt;&#xA;&lt;p&gt;Find the vector and parametric equations of the line passing through the points $P(3, -1, 2)$ and $Q(5, 2, -4)$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Find the direction vector $\vec{m}$:&lt;/p&gt;&#xA;$$&#xA;  \vec{m} = \langle 5 - 3, 2 - (-1), -4 - 2 \rangle = \langle 2, 3, -6 \rangle.&#xA;  $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use point $P(3, -1, 2)$ and $\vec{m} = \langle 2, 3, -6 \rangle$ to write the vector equation:&lt;/p&gt;</description>
     </item>
     <item>
       <title>8.5 Practice</title>
