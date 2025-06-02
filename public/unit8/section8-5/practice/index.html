@@ -61,7 +61,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.141.0">
+    <meta name="generator" content="Hugo 0.139.4">
     <meta name="description" content="">
 
 
@@ -101,30 +101,30 @@
 </script>
 
     
-    <link href="/css/nucleus.css?1748111374" rel="stylesheet">
+    <link href="/css/nucleus.css?1748866470" rel="stylesheet">
     
-    <link href="/css/fontawesome-all.min.css?1748111374" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1748866470" rel="stylesheet">
     
-    <link href="/css/hybrid.css?1748111374" rel="stylesheet">
+    <link href="/css/hybrid.css?1748866470" rel="stylesheet">
     
-    <link href="/css/featherlight.min.css?1748111374" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1748866470" rel="stylesheet">
     
-    <link href="/css/perfect-scrollbar.min.css?1748111374" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1748866470" rel="stylesheet">
     
-    <link href="/css/auto-complete.css?1748111374" rel="stylesheet">
+    <link href="/css/auto-complete.css?1748866470" rel="stylesheet">
     
-    <link href="/css/atom-one-dark-reasonable.css?1748111374" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1748866470" rel="stylesheet">
     
-    <link href="/css/theme.css?1748111374" rel="stylesheet">
+    <link href="/css/theme.css?1748866470" rel="stylesheet">
     
-    <link href="/css/tabs.css?1748111374" rel="stylesheet">
+    <link href="/css/tabs.css?1748866470" rel="stylesheet">
     
-    <link href="/css/hugo-theme.css?1748111374" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1748866470" rel="stylesheet">
     
     
-    <link href="/theme-red.css?1748111374" rel="stylesheet">
+    <link href="/theme-red.css?1748866470" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1748111374"></script>
+    <script src="/js/jquery-3.3.1.min.js?1748866470"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -156,14 +156,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1748111374"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1748111374"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1748866470"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1748866470"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/mr.knapp.surge.sh\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1748111374"></script>
+<script type="text/javascript" src="/js/search.js?1748866470"></script>
 
     
   </div>
@@ -4893,8 +4893,16 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#ex1">Ex1</a></li>
-    <li><a href="#ex2">Ex2</a></li>
-    <li><a href="#ex3">Ex3</a></li>
+    <li><a href="#ex2">Ex2</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#ex3">Ex3</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
     <li><a href="#ex4">Ex4</a></li>
     <li><a href="#ex5">Ex5</a></li>
   </ul>
@@ -4981,36 +4989,36 @@ $$
 2x - y + 3z - 5 = 0.
 $$<details>
 <summary><strong id="solution-title">Solution</strong></summary>
+<h4 id="step-1-check-parallelism">Step 1: Check Parallelism</h4>
+<p>To determine if the line lies on the plane, we first check if the line is <strong>parallel</strong> to the plane. This is done by verifying whether the <strong>direction vector of the line</strong> ($\vec{d}$) is perpendicular to the <strong>normal vector of the plane</strong> ($\vec{n}$).</p>
 <ul>
 <li>
-<p>Write the parametric equations of the line:</p>
+<p>The direction vector of the line is:</p>
 $$
-  x = 1 + 2t, \quad y = -t, \quad z = -2 + 3t.
+  \vec{d} = \langle 2, -1, 3 \rangle.
   $$</li>
 <li>
-<p>Substitute these into the plane equation:</p>
+<p>The normal vector of the plane is:</p>
 $$
-  2(1 + 2t) - (-t) + 3(-2 + 3t) - 5 = 0.
+  \vec{n} = \langle 2, -1, 3 \rangle.
   $$</li>
 <li>
-<p>Simplify:</p>
+<p>Compute the dot product:</p>
 $$
-  2 + 4t + t - 6 + 9t - 5 = 0.
-  $$$$
-  14t - 9 = 0.
+  \vec{d} \cdot \vec{n} = \langle 2, -1, 3 \rangle \cdot \langle 2, -1, 3 \rangle = (2)(2) + (-1)(-1) + (3)(3).
+  $$<p>Simplify:</p>
+$$
+  \vec{d} \cdot \vec{n} = 4 + 1 + 9 = 14.
   $$</li>
 <li>
-<p>Solve for $t$:</p>
-$$
-  t = \frac{9}{14}.
-  $$</li>
-<li>
-<p>Since the equation holds true for all values of $t$, the line lies entirely on the plane.</p>
+<p>Since $\vec{d} \cdot \vec{n} \neq 0$, the line is <strong>not parallel</strong> to the plane.</p>
 </li>
 </ul>
-<p>Final answer:</p>
+<h4 id="step-2-conclusion">Step 2: Conclusion</h4>
+<p>Since the line is <strong>not parallel</strong> to the plane, it <strong>cannot lie entirely on the plane</strong>. There is no need to check whether a specific point on the line satisfies the plane equation.</p>
+<p>Final Answer</p>
 $$
-\boxed{\text{The line lies on the plane (infinite solutions).}}
+\boxed{\text{The line does not lie on the plane.}}
 $$</details>
 <hr>
 <h2 id="ex3">Ex3</h2>
@@ -5022,22 +5030,49 @@ $$
 x - y + 2z - 6 = 0.
 $$<details>
 <summary><strong id="solution-title">Solution</strong></summary>
+<h4 id="step-1-check-parallelism-1">Step 1: Check Parallelism</h4>
+<p>To determine if the line intersects the plane, we first check if the line is <strong>parallel</strong> to the plane. This is done by verifying whether the <strong>direction vector of the line</strong> ($\vec{d}$) is perpendicular to the <strong>normal vector of the plane</strong> ($\vec{n}$).</p>
 <ul>
 <li>
-<p>Write the parametric equations of the line:</p>
+<p>The direction vector of the line is:</p>
+$$
+  \vec{d} = \langle 1, -1, 2 \rangle.
+  $$</li>
+<li>
+<p>The normal vector of the plane is:</p>
+$$
+  \vec{n} = \langle 1, -1, 2 \rangle.
+  $$</li>
+<li>
+<p>Compute the dot product:</p>
+$$
+  \vec{d} \cdot \vec{n} = \langle 1, -1, 2 \rangle \cdot \langle 1, -1, 2 \rangle = (1)(1) + (-1)(-1) + (2)(2).
+  $$<p>Simplify:</p>
+$$
+  \vec{d} \cdot \vec{n} = 1 + 1 + 4 = 6.
+  $$</li>
+<li>
+<p>Since $\vec{d} \cdot \vec{n} \neq 0$, the line is <strong>not parallel</strong> to the plane.</p>
+</li>
+</ul>
+<h4 id="step-2-solve-for-intersection">Step 2: Solve for Intersection</h4>
+<p>Since the line is not parallel to the plane, we solve for the intersection by substituting the parametric equations of the line into the plane equation.</p>
+<ul>
+<li>
+<p>The parametric equations of the line are:</p>
 $$
   x = t, \quad y = 1 - t, \quad z = -2 + 2t.
   $$</li>
 <li>
-<p>Substitute these into the plane equation:</p>
+<p>Substitute these into the plane equation $x - y + 2z - 6 = 0$:</p>
 $$
   t - (1 - t) + 2(-2 + 2t) - 6 = 0.
   $$</li>
 <li>
-<p>Simplify:</p>
 $$
   t - 1 + t - 4 + 4t - 6 = 0.
-  $$$$
+  $$<p>Combine like terms:</p>
+$$
   6t - 11 = 0.
   $$</li>
 <li>
@@ -5045,13 +5080,19 @@ $$
 $$
   t = \frac{11}{6}.
   $$</li>
-<li>
-<p>Check if the line intersects the plane by substituting $t = \frac{11}{6}$ into the parametric equations. If no valid solution exists, the line is parallel to the plane.</p>
-</li>
 </ul>
-<p>Final answer:</p>
+<h4 id="step-3-find-the-intersection-point">Step 3: Find the Intersection Point</h4>
 $$
-\boxed{\text{The line is parallel to the plane (no solution).}}
+x = \frac{11}{6}, \quad y = 1 - \frac{11}{6} = -\frac{5}{6}, \quad z = -2 + 2\left(\frac{11}{6}\right) = \frac{5}{3}.
+$$<ul>
+<li>The intersection point is:
+$$
+  \left(\frac{11}{6}, -\frac{5}{6}, \frac{5}{3}\right).
+  $$</li>
+</ul>
+<p>Final Answer</p>
+$$
+\boxed{\text{The line intersects the plane at the point } \left(\frac{11}{6}, -\frac{5}{6}, \frac{5}{3}\right).}
 $$</details>
 <hr>
 <h2 id="ex4">Ex4</h2>
@@ -8036,19 +8077,19 @@ $$</details>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1748111374"></script>
-    <script src="/js/perfect-scrollbar.min.js?1748111374"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1748111374"></script>
-    <script src="/js/jquery.sticky.js?1748111374"></script>
-    <script src="/js/featherlight.min.js?1748111374"></script>
-    <script src="/js/highlight.pack.js?1748111374"></script>
+    <script src="/js/clipboard.min.js?1748866470"></script>
+    <script src="/js/perfect-scrollbar.min.js?1748866470"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1748866470"></script>
+    <script src="/js/jquery.sticky.js?1748866470"></script>
+    <script src="/js/featherlight.min.js?1748866470"></script>
+    <script src="/js/highlight.pack.js?1748866470"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1748111374"></script>
-    <script src="/js/learn.js?1748111374"></script>
-    <script src="/js/hugo-learn.js?1748111374"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1748866470"></script>
+    <script src="/js/learn.js?1748866470"></script>
+    <script src="/js/hugo-learn.js?1748866470"></script>
     
         
-            <script src="/mermaid/mermaid.js?1748111374"></script>
+            <script src="/mermaid/mermaid.js?1748866470"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

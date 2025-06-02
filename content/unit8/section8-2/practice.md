@@ -407,18 +407,13 @@ $$
   1 = 4
   $$
 
-  This is satisfied.
+  This is not true.
 
-Point of intersection:
-
-$$
-x = 1 + 2(1) = 3, \quad y = 0 + 1 = 1, \quad z = -2 + 3(1) = 1
-$$
 
 Final answer:
 
 $$
-\boxed{(3, 1, 1)}
+\boxed{\text{The lines are skew}}
 $$
 
 </details>
