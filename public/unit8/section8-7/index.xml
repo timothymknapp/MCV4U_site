@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.7: Intersections: 3 Planes on Calculus Hub</title>
-    <link>https://mr.knapp.surge.sh/unit8/section8-7/</link>
+    <link>http://localhost:1313/MrKnappsClass/unit8/section8-7/</link>
     <description>Recent content in 8.7: Intersections: 3 Planes on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://mr.knapp.surge.sh/unit8/section8-7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MrKnappsClass/unit8/section8-7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>8.7 Examples</title>
-      <link>https://mr.knapp.surge.sh/unit8/section8-7/notes/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit8/section8-7/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mr.knapp.surge.sh/unit8/section8-7/notes/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-7/notes/</guid>
       <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to determine the intersection of three planes in 3D space.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-intersection-at-a-single-point&#34;&gt;Example 1: Intersection at a Single Point&lt;/h2&gt;&#xA;&lt;p&gt;Find the point of intersection of the three planes:&lt;/p&gt;&#xA;$$&#xA;x + y + z = 6, \quad 2x - y + z = 4, \quad x + 3y - 2z = 2.&#xA;$$&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write the system of equations:&lt;/p&gt;&#xA;$$&#xA;  \begin{aligned}&#xA;  x + y + z &amp;= 6, \\&#xA;  2x - y + z &amp;= 4, \\&#xA;  x + 3y - 2z &amp;= 2.&#xA;  \end{aligned}&#xA;  $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Solve using substitution or elimination:&lt;/p&gt;</description>
     </item>
     <item>
       <title>8.7 Practice</title>
-      <link>https://mr.knapp.surge.sh/unit8/section8-7/practice/</link>
+      <link>http://localhost:1313/MrKnappsClass/unit8/section8-7/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mr.knapp.surge.sh/unit8/section8-7/practice/</guid>
+      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-7/practice/</guid>
       <description>&lt;p&gt;Solve the following problems to reinforce your understanding of intersections of three planes in 3D space. Click on the &lt;strong&gt;&amp;ldquo;Solution&amp;rdquo;&lt;/strong&gt; dropdown to reveal the hidden solution.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ex1&#34;&gt;Ex1&lt;/h2&gt;&#xA;&lt;p&gt;Find the point of intersection of the three planes:&lt;/p&gt;&#xA;$$&#xA;x + y + z = 6, \quad x - y + z = 2, \quad x + y - z = 4.&#xA;$$&lt;details&gt;&#xA;&lt;summary&gt;&lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write the system of equations:&lt;/p&gt;&#xA;$$&#xA;  \begin{aligned}&#xA;  x + y + z &amp;= 6, \\&#xA;  x - y + z &amp;= 2, \\&#xA;  x + y - z &amp;= 4.&#xA;  \end{aligned}&#xA;  $$&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Solve using elimination:&lt;/p&gt;</description>
     </item>
   </channel>
