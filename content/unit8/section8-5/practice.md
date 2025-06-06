@@ -68,6 +68,7 @@ $$
 ---
 
 ## Ex2
+
 Determine whether the line:
 
 $$
@@ -83,47 +84,50 @@ $$
 <details>
 <summary><strong id="solution-title">Solution</strong></summary>
 
-- Write the parametric equations of the line:
+
+#### Step 1: Check Parallelism
+To determine if the line lies on the plane, we first check if the line is **parallel** to the plane. This is done by verifying whether the **direction vector of the line** ($\vec{d}$) is perpendicular to the **normal vector of the plane** ($\vec{n}$).
+
+- The direction vector of the line is:
 
   $$
-  x = 1 + 2t, \quad y = -t, \quad z = -2 + 3t.
+  \vec{d} = \langle 2, -1, 3 \rangle.
   $$
 
-- Substitute these into the plane equation:
+- The normal vector of the plane is:
 
   $$
-  2(1 + 2t) - (-t) + 3(-2 + 3t) - 5 = 0.
+  \vec{n} = \langle 2, -1, 3 \rangle.
   $$
 
-- Simplify:
-
+- Compute the dot product:
+ 
   $$
-  2 + 4t + t - 6 + 9t - 5 = 0.
+  \vec{d} \cdot \vec{n} = \langle 2, -1, 3 \rangle \cdot \langle 2, -1, 3 \rangle = (2)(2) + (-1)(-1) + (3)(3).
   $$
-
+ 
+  Simplify:
+ 
   $$
-  14t - 9 = 0.
-  $$
-
-- Solve for $t$:
-
-  $$
-  t = \frac{9}{14}.
+  \vec{d} \cdot \vec{n} = 4 + 1 + 9 = 14.
   $$
 
-- Since the equation holds true for all values of $t$, the line lies entirely on the plane.
+- Since $\vec{d} \cdot \vec{n} \neq 0$, the line is **not parallel** to the plane.
 
-Final answer:
+#### Step 2: Conclusion
+Since the line is **not parallel** to the plane, it **cannot lie entirely on the plane**. There is no need to check whether a specific point on the line satisfies the plane equation.
+
+Final Answer
 
 $$
-\boxed{\text{The line lies on the plane (infinite solutions).}}
+\boxed{\text{The line does not lie on the plane.}}
 $$
 
 </details>
-
+ 
 ---
 
-##  Ex3
+## Ex3
 
 Determine whether the line:
 
@@ -137,43 +141,87 @@ $$
 x - y + 2z - 6 = 0.
 $$
 
+
 <details>
 <summary><strong id="solution-title">Solution</strong></summary>
 
-- Write the parametric equations of the line:
+#### Step 1: Check Parallelism
+To determine if the line intersects the plane, we first check if the line is **parallel** to the plane. This is done by verifying whether the **direction vector of the line** ($\vec{d}$) is perpendicular to the **normal vector of the plane** ($\vec{n}$).
 
+- The direction vector of the line is:
+ 
+  $$
+  \vec{d} = \langle 1, -1, 2 \rangle.
+  $$
+
+- The normal vector of the plane is:
+ 
+  $$
+  \vec{n} = \langle 1, -1, 2 \rangle.
+  $$
+
+- Compute the dot product:
+ 
+  $$
+  \vec{d} \cdot \vec{n} = \langle 1, -1, 2 \rangle \cdot \langle 1, -1, 2 \rangle = (1)(1) + (-1)(-1) + (2)(2).
+  $$
+  
+  Simplify:
+  
+  $$
+  \vec{d} \cdot \vec{n} = 1 + 1 + 4 = 6.
+  $$
+
+- Since $\vec{d} \cdot \vec{n} \neq 0$, the line is **not parallel** to the plane.
+
+#### Step 2: Solve for Intersection
+Since the line is not parallel to the plane, we solve for the intersection by substituting the parametric equations of the line into the plane equation.
+
+- The parametric equations of the line are:
+  
   $$
   x = t, \quad y = 1 - t, \quad z = -2 + 2t.
   $$
 
-- Substitute these into the plane equation:
-
+- Substitute these into the plane equation $x - y + 2z - 6 = 0$:
+  
   $$
   t - (1 - t) + 2(-2 + 2t) - 6 = 0.
   $$
 
 - Simplify:
-
   $$
   t - 1 + t - 4 + 4t - 6 = 0.
   $$
-
+  
+  Combine like terms:
+  
   $$
   6t - 11 = 0.
   $$
 
 - Solve for $t$:
-
+  
   $$
   t = \frac{11}{6}.
   $$
 
-- Check if the line intersects the plane by substituting $t = \frac{11}{6}$ into the parametric equations. If no valid solution exists, the line is parallel to the plane.
+#### Step 3: Find the Intersection Point
+Substitute $t = \frac{11}{6}$ into the parametric equations of the line to find the intersection point:
+$$
+x = \frac{11}{6}, \quad y = 1 - \frac{11}{6} = -\frac{5}{6}, \quad z = -2 + 2\left(\frac{11}{6}\right) = \frac{5}{3}.
+$$
 
-Final answer:
+- The intersection point is:
+  $$
+  \left(\frac{11}{6}, -\frac{5}{6}, \frac{5}{3}\right).
+  $$
+
+
+Final Answer
 
 $$
-\boxed{\text{The line is parallel to the plane (no solution).}}
+\boxed{\text{The line intersects the plane at the point } \left(\frac{11}{6}, -\frac{5}{6}, \frac{5}{3}\right).}
 $$
 
 </details>
