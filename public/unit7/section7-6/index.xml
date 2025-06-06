@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7.6 Projections, Decomositions on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit7/section7-6/</link>
+    <link>http://localhost:1313/unit7/section7-6/</link>
     <description>Recent content in 7.6 Projections, Decomositions on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit7/section7-6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/unit7/section7-6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7.6 Examples</title>
-      <link>http://localhost:1313/MrKnappsClass/unit7/section7-6/notes/</link>
+      <link>http://localhost:1313/unit7/section7-6/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit7/section7-6/notes/</guid>
+      <guid>http://localhost:1313/unit7/section7-6/notes/</guid>
       <description>&lt;p&gt;In this section, we’ll work through examples that demonstrate how to compute scalar and vector projections, decompose vectors into components, and apply these concepts to real-world scenarios. Both 2D and 3D examples are included.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-scalar-and-vector-projection-2d&#34;&gt;Example 1: Scalar and Vector Projection (2D)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Let $\vec{a} = \langle 4, 3 \rangle$ and $\vec{b} = \langle 1, 0 \rangle$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Find the scalar projection of $\vec{a}$ onto $\vec{b}$.&lt;/li&gt;&#xA;&lt;li&gt;Find the vector projection of $\vec{a}$ onto $\vec{b}$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.6 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit7/section7-6/practice/</link>
+      <link>http://localhost:1313/unit7/section7-6/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit7/section7-6/practice/</guid>
+      <guid>http://localhost:1313/unit7/section7-6/practice/</guid>
       <description>&lt;p&gt;In this section, you’ll find practice problems to reinforce your understanding of scalar and vector projections, decomposing vectors, and their applications. Solutions are hidden expand them only after attempting the problem!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Compute the scalar and vector projections of $\vec{a} = \langle 2, 5 \rangle$ onto $\vec{b} = \langle 4, 1 \rangle$.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scalar Projection&lt;/strong&gt;:&lt;/p&gt;&#xA;\[&#xA;   \text{comp}_{\vec{b}} \vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}.&#xA;   \]&lt;p&gt;Compute the dot product:&lt;/p&gt;&#xA;\[&#xA;   \vec{a} \cdot \vec{b} = (2)(4) + (5)(1) = 8 + 5 = 13.&#xA;   \]&lt;p&gt;Compute $|\vec{b}|$:&lt;/p&gt;</description>
     </item>
   </channel>

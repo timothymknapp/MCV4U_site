@@ -71,7 +71,7 @@ $$
 
 ---
 
-## Example 2: Line Lies on the Plane (Infinite Solutions)
+## Example 2: Line Intersects The plane (Point Solution)
 Determine whether the line:
 
 $$
@@ -113,17 +113,22 @@ $$
   14t = -4 \implies t = -\frac{2}{7}.
   $$
 
-- Since the equation holds true for all values of $t$, the line lies entirely on the plane.
+- Since $ t = -\frac{2}{7} $ , the line intersects the plane where its parameter equals -\frac{2}{7}.  To find the point of intersection use $ t = -\frac{2}{7} $ plugged into the line. 
+
+$$
+  \left( 1 + 2 \left(-\frac{2}{7}\right), \quad  2 - -\frac{2}{7}, \quad  -3 + 4\left(-\frac{2}{7} \right) \right)
+$$
+
 
 Final answer:
 
 $$
-\boxed{\text{The line lies on the plane (infinite solutions).}}
+\boxed{\left( \frac{3}{7}, \quad  - \frac{18}{7}, \quad - \frac{29}{7}  \right)}
 $$
 
 ---
 
-## Example 3: Line Parallel to the Plane (No Solution)
+## Example 3: Point Solution
 Determine whether the line:
 
 $$
@@ -165,12 +170,17 @@ $$
   t = -\frac{1}{3}.
   $$
 
-- Check if the line intersects the plane by substituting $t = -\frac{1}{3}$ into the parametric equations. If no valid solution exists, the line is parallel to the plane.
+- Since $ t = -\frac{1}{3} $ , the line intersects the plane where its parameter equals -\frac{2}{7}.  To find the point of intersection use $ t = -\frac{1}{3} $ plugged into the line. 
+
+$$
+  \left( 2 + \left(-\frac{1}{3}\right), \quad  -1 + 2 \left(-\frac{1}{3}\right), \quad  3 - \left(-\frac{1}{3} \right) \right)
+$$
+
 
 Final answer:
 
 $$
-\boxed{\text{The line is parallel to the plane (no solution).}}
+\boxed{\left( \frac{5}{3}, \quad  - \frac{1}{3}, \quad - \frac{10}{3}  \right)}
 $$
 
 ---

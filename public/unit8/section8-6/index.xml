@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.6: Intersections: 2 Planes on Calculus Hub</title>
-    <link>http://localhost:1313/MrKnappsClass/unit8/section8-6/</link>
+    <link>http://localhost:1313/unit8/section8-6/</link>
     <description>Recent content in 8.6: Intersections: 2 Planes on Calculus Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MrKnappsClass/unit8/section8-6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/unit8/section8-6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>8.6 Examples</title>
-      <link>http://localhost:1313/MrKnappsClass/unit8/section8-6/notes/</link>
+      <link>http://localhost:1313/unit8/section8-6/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-6/notes/</guid>
-      <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to determine the intersection of two planes in 3D space.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-intersection-of-two-planes-line-of-intersection&#34;&gt;Example 1: Intersection of Two Planes (Line of Intersection)&lt;/h2&gt;&#xA;&lt;p&gt;Find the line of intersection between the planes:&lt;/p&gt;&#xA;$$&#xA;2x - y + z - 4 = 0 \quad \text{and} \quad x + y - z - 2 = 0.&#xA;$$&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/unit8/section8-6/notes/</guid>
+      <description>&lt;p&gt;This page provides detailed worked-out examples to help you understand how to determine the intersection of two planes in 3D space.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-1-intersection-of-two-planes-line-of-intersection-special-case-multiple-variables-eliminate&#34;&gt;Example 1: Intersection of Two Planes (Line of Intersection) Special Case: multiple variables eliminate&lt;/h2&gt;&#xA;&lt;p&gt;Find the line of intersection between the planes:&lt;/p&gt;&#xA;$$&#xA;2x - y + z - 4 = 0 \quad \text{and} \quad x + y - z - 2 = 0.&#xA;$$&lt;h3 id=&#34;step-1-check-if-the-planes-are-parallel&#34;&gt;Step 1: Check if the planes are parallel&lt;/h3&gt;&#xA;&lt;p&gt;The normal vectors of the planes are:&lt;/p&gt;</description>
     </item>
     <item>
       <title>8.6 Practice</title>
-      <link>http://localhost:1313/MrKnappsClass/unit8/section8-6/practice/</link>
+      <link>http://localhost:1313/unit8/section8-6/practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MrKnappsClass/unit8/section8-6/practice/</guid>
-      <description>&lt;p&gt;Solve the following problems to reinforce your understanding of intersections of two planes in 3D space. Click on the &lt;strong&gt;&amp;ldquo;Solution&amp;rdquo;&lt;/strong&gt; dropdown to reveal the hidden solution.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ex1&#34;&gt;Ex1&lt;/h2&gt;&#xA;&lt;p&gt;Find the line of intersection between the planes:&lt;/p&gt;&#xA;$$&#xA;x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4.&#xA;$$&lt;details&gt;&#xA;&lt;summary&gt;&lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/unit8/section8-6/practice/</guid>
+      <description>&lt;p&gt;Solve the following problems to reinforce your understanding of intersections of two planes in 3D space. Click on the &lt;strong&gt;&amp;ldquo;Solution&amp;rdquo;&lt;/strong&gt; dropdown to reveal the hidden solution.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ex1-intersection-of-two-planes&#34;&gt;Ex1: Intersection of Two Planes&lt;/h2&gt;&#xA;&lt;p&gt;Find the line of intersection between the planes:&lt;/p&gt;&#xA;$$&#xA;x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4&#xA;$$&lt;details&gt;&#xA;&lt;summary&gt;&lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;h3 id=&#34;step-1-check-if-planes-are-parallel&#34;&gt;Step 1: Check if planes are parallel&lt;/h3&gt;&#xA;&lt;p&gt;Normal vectors:&lt;/p&gt;&#xA;$$&#xA;\vec{n}_1 = \langle 1, 1, 1 \rangle, \quad \vec{n}_2 = \langle 2, -1, 1 \rangle&#xA;$$&lt;p&gt;Check ratios of components:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
